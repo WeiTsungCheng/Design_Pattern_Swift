@@ -38,6 +38,21 @@
 		F4CDC86A2855D46E00BC0D04 /* ProtoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4CDC8692855D46E00BC0D04 /* ProtoViewController.swift */; };
 		F4CDC88C2855EA1E00BC0D04 /* Resume.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4CDC88B2855EA1E00BC0D04 /* Resume.swift */; };
 		F4CDC88F2855F01000BC0D04 /* TemplateMethodViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4CDC88E2855F01000BC0D04 /* TemplateMethodViewController.swift */; };
+		F4CDC891285778B900BC0D04 /* TeacherPaper.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4CDC890285778B900BC0D04 /* TeacherPaper.swift */; };
+		F4CDC894285DE28000BC0D04 /* FacadeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4CDC893285DE28000BC0D04 /* FacadeViewController.swift */; };
+		F4CDC896285DE4C600BC0D04 /* FundInc.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4CDC895285DE4C600BC0D04 /* FundInc.swift */; };
+		F4CDC898285DE66D00BC0D04 /* Stock.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4CDC897285DE66D00BC0D04 /* Stock.swift */; };
+		F4CDC89B285EFBD700BC0D04 /* BuilderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4CDC89A285EFBD700BC0D04 /* BuilderViewController.swift */; };
+		F4CDC89D285EFC2700BC0D04 /* PersonBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4CDC89C285EFC2700BC0D04 /* PersonBuilder.swift */; };
+		F4CDC89F285EFC6D00BC0D04 /* PersonDirector.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4CDC89E285EFC6D00BC0D04 /* PersonDirector.swift */; };
+		F4CDC8A2285F042700BC0D04 /* BuilderPattern2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4CDC8A1285F042700BC0D04 /* BuilderPattern2ViewController.swift */; };
+		F4CDC8A4285F0A1900BC0D04 /* CarBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4CDC8A3285F0A1900BC0D04 /* CarBuilder.swift */; };
+		F4CDC8A6285F0A4600BC0D04 /* CarDirector.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4CDC8A5285F0A4600BC0D04 /* CarDirector.swift */; };
+		F4CDC8A8285F0A5C00BC0D04 /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4CDC8A7285F0A5C00BC0D04 /* Car.swift */; };
+		F4CDC8AB285F18AA00BC0D04 /* ObserverPatternViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4CDC8AA285F18AA00BC0D04 /* ObserverPatternViewController.swift */; };
+		F4CDC8AD285F1C6F00BC0D04 /* Informer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4CDC8AC285F1C6F00BC0D04 /* Informer.swift */; };
+		F4CDC8AF285F1CB800BC0D04 /* Observer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4CDC8AE285F1CB800BC0D04 /* Observer.swift */; };
+		F4CDC8B3285F469D00BC0D04 /* ObserverPattern_plus_EventHandlerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4CDC8B2285F469D00BC0D04 /* ObserverPattern_plus_EventHandlerViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -74,6 +89,21 @@
 		F4CDC8692855D46E00BC0D04 /* ProtoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProtoViewController.swift; sourceTree = "<group>"; };
 		F4CDC88B2855EA1E00BC0D04 /* Resume.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Resume.swift; sourceTree = "<group>"; };
 		F4CDC88E2855F01000BC0D04 /* TemplateMethodViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemplateMethodViewController.swift; sourceTree = "<group>"; };
+		F4CDC890285778B900BC0D04 /* TeacherPaper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeacherPaper.swift; sourceTree = "<group>"; };
+		F4CDC893285DE28000BC0D04 /* FacadeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacadeViewController.swift; sourceTree = "<group>"; };
+		F4CDC895285DE4C600BC0D04 /* FundInc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FundInc.swift; sourceTree = "<group>"; };
+		F4CDC897285DE66D00BC0D04 /* Stock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stock.swift; sourceTree = "<group>"; };
+		F4CDC89A285EFBD700BC0D04 /* BuilderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuilderViewController.swift; sourceTree = "<group>"; };
+		F4CDC89C285EFC2700BC0D04 /* PersonBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonBuilder.swift; sourceTree = "<group>"; };
+		F4CDC89E285EFC6D00BC0D04 /* PersonDirector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonDirector.swift; sourceTree = "<group>"; };
+		F4CDC8A1285F042700BC0D04 /* BuilderPattern2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuilderPattern2ViewController.swift; sourceTree = "<group>"; };
+		F4CDC8A3285F0A1900BC0D04 /* CarBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarBuilder.swift; sourceTree = "<group>"; };
+		F4CDC8A5285F0A4600BC0D04 /* CarDirector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarDirector.swift; sourceTree = "<group>"; };
+		F4CDC8A7285F0A5C00BC0D04 /* Car.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Car.swift; sourceTree = "<group>"; };
+		F4CDC8AA285F18AA00BC0D04 /* ObserverPatternViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObserverPatternViewController.swift; sourceTree = "<group>"; };
+		F4CDC8AC285F1C6F00BC0D04 /* Informer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Informer.swift; sourceTree = "<group>"; };
+		F4CDC8AE285F1CB800BC0D04 /* Observer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Observer.swift; sourceTree = "<group>"; };
+		F4CDC8B2285F469D00BC0D04 /* ObserverPattern_plus_EventHandlerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObserverPattern_plus_EventHandlerViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +149,11 @@
 				F4CDC85F2855BE1200BC0D04 /* FactoryPattern2 */,
 				F4CDC8682855D43400BC0D04 /* ProtoPattern */,
 				F4CDC88D2855EFB300BC0D04 /* TemplateMethodPattern */,
+				F4CDC892285A45D200BC0D04 /* FacadePattern */,
+				F4CDC899285EFBAB00BC0D04 /* BuilderPattern */,
+				F4CDC8A0285F038100BC0D04 /* BuilderPattern2 */,
+				F4CDC8A9285F173E00BC0D04 /* ObserverPattern */,
+				F4CDC8B0285F461200BC0D04 /* ObserverPattern_plus_EventHandler */,
 				F43D9B1F284C80D5002708CC /* Main.storyboard */,
 				F43D9B22284C80D6002708CC /* Assets.xcassets */,
 				F43D9B24284C80D6002708CC /* LaunchScreen.storyboard */,
@@ -218,8 +253,58 @@
 			isa = PBXGroup;
 			children = (
 				F4CDC88E2855F01000BC0D04 /* TemplateMethodViewController.swift */,
+				F4CDC890285778B900BC0D04 /* TeacherPaper.swift */,
 			);
 			path = TemplateMethodPattern;
+			sourceTree = "<group>";
+		};
+		F4CDC892285A45D200BC0D04 /* FacadePattern */ = {
+			isa = PBXGroup;
+			children = (
+				F4CDC893285DE28000BC0D04 /* FacadeViewController.swift */,
+				F4CDC895285DE4C600BC0D04 /* FundInc.swift */,
+				F4CDC897285DE66D00BC0D04 /* Stock.swift */,
+			);
+			path = FacadePattern;
+			sourceTree = "<group>";
+		};
+		F4CDC899285EFBAB00BC0D04 /* BuilderPattern */ = {
+			isa = PBXGroup;
+			children = (
+				F4CDC89A285EFBD700BC0D04 /* BuilderViewController.swift */,
+				F4CDC89C285EFC2700BC0D04 /* PersonBuilder.swift */,
+				F4CDC89E285EFC6D00BC0D04 /* PersonDirector.swift */,
+			);
+			path = BuilderPattern;
+			sourceTree = "<group>";
+		};
+		F4CDC8A0285F038100BC0D04 /* BuilderPattern2 */ = {
+			isa = PBXGroup;
+			children = (
+				F4CDC8A1285F042700BC0D04 /* BuilderPattern2ViewController.swift */,
+				F4CDC8A7285F0A5C00BC0D04 /* Car.swift */,
+				F4CDC8A3285F0A1900BC0D04 /* CarBuilder.swift */,
+				F4CDC8A5285F0A4600BC0D04 /* CarDirector.swift */,
+			);
+			path = BuilderPattern2;
+			sourceTree = "<group>";
+		};
+		F4CDC8A9285F173E00BC0D04 /* ObserverPattern */ = {
+			isa = PBXGroup;
+			children = (
+				F4CDC8AA285F18AA00BC0D04 /* ObserverPatternViewController.swift */,
+				F4CDC8AC285F1C6F00BC0D04 /* Informer.swift */,
+				F4CDC8AE285F1CB800BC0D04 /* Observer.swift */,
+			);
+			path = ObserverPattern;
+			sourceTree = "<group>";
+		};
+		F4CDC8B0285F461200BC0D04 /* ObserverPattern_plus_EventHandler */ = {
+			isa = PBXGroup;
+			children = (
+				F4CDC8B2285F469D00BC0D04 /* ObserverPattern_plus_EventHandlerViewController.swift */,
+			);
+			path = ObserverPattern_plus_EventHandler;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -293,26 +378,40 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F4CDC8A2285F042700BC0D04 /* BuilderPattern2ViewController.swift in Sources */,
+				F4CDC89F285EFC6D00BC0D04 /* PersonDirector.swift in Sources */,
 				F4CDC88C2855EA1E00BC0D04 /* Resume.swift in Sources */,
 				F43D9B3D284CA510002708CC /* StrategyPatternViewController.swift in Sources */,
 				F4CDC86A2855D46E00BC0D04 /* ProtoViewController.swift in Sources */,
 				F43D9B38284C9619002708CC /* CashSuper.swift in Sources */,
+				F4CDC8AD285F1C6F00BC0D04 /* Informer.swift in Sources */,
+				F4CDC89B285EFBD700BC0D04 /* BuilderViewController.swift in Sources */,
 				F43D9B36284C92F3002708CC /* SimpleFactory2ViewController.swift in Sources */,
 				F4CDC84E2854F48100BC0D04 /* Finery.swift in Sources */,
 				F43D9B1E284C80D5002708CC /* ViewController.swift in Sources */,
 				F4CDC8652855C03200BC0D04 /* NightingaleFactoryProtocol.swift in Sources */,
+				F4CDC8AB285F18AA00BC0D04 /* ObserverPatternViewController.swift in Sources */,
 				F4CDC84C2854E47B00BC0D04 /* Person.swift in Sources */,
 				F4CDC88F2855F01000BC0D04 /* TemplateMethodViewController.swift in Sources */,
+				F4CDC898285DE66D00BC0D04 /* Stock.swift in Sources */,
+				F4CDC89D285EFC2700BC0D04 /* PersonBuilder.swift in Sources */,
 				F4CDC8632855BE8500BC0D04 /* Nightingale.swift in Sources */,
 				F4CDC85728558E1300BC0D04 /* PersuitProxy.swift in Sources */,
+				F4CDC8A8285F0A5C00BC0D04 /* Car.swift in Sources */,
 				F43D9B1A284C80D5002708CC /* AppDelegate.swift in Sources */,
 				F43D9B1C284C80D5002708CC /* SceneDelegate.swift in Sources */,
 				F4CDC8552855898100BC0D04 /* Persuit.swift in Sources */,
 				F4CDC8532855096700BC0D04 /* ProxyViewController.swift in Sources */,
+				F4CDC894285DE28000BC0D04 /* FacadeViewController.swift in Sources */,
 				F43D9B44284CCC76002708CC /* CashContextNew.swift in Sources */,
 				F43D9B3F284CAA2E002708CC /* CashContext.swift in Sources */,
+				F4CDC8A4285F0A1900BC0D04 /* CarBuilder.swift in Sources */,
+				F4CDC8B3285F469D00BC0D04 /* ObserverPattern_plus_EventHandlerViewController.swift in Sources */,
+				F4CDC896285DE4C600BC0D04 /* FundInc.swift in Sources */,
+				F4CDC8A6285F0A4600BC0D04 /* CarDirector.swift in Sources */,
 				F4CDC850285505E300BC0D04 /* DecoratorViewController.swift in Sources */,
 				F43D9B31284C8909002708CC /* Operation.swift in Sources */,
+				F4CDC8AF285F1CB800BC0D04 /* Observer.swift in Sources */,
 				F4CDC85E285598C100BC0D04 /* FacoryProtocol.swift in Sources */,
 				F4CDC85928558E3600BC0D04 /* Girl.swift in Sources */,
 				F43D9B33284C8C68002708CC /* OperationFactory.swift in Sources */,
@@ -320,6 +419,7 @@
 				F43D9B42284CCAAD002708CC /* StrategyPatternPlusSimpleFactoryViewController.swift in Sources */,
 				F43D9B3A284C9C43002708CC /* CashSuperFactory.swift in Sources */,
 				F4CDC8612855BE5800BC0D04 /* Factory2ViewController.swift in Sources */,
+				F4CDC891285778B900BC0D04 /* TeacherPaper.swift in Sources */,
 				F43D9B2E284C851C002708CC /* SimpleFactory1ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

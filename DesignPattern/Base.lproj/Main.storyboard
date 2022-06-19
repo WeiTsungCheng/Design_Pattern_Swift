@@ -34,7 +34,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="pkO-wZ-Iut" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-4746" y="1842"/>
+            <point key="canvasLocation" x="-6000" y="-618"/>
         </scene>
         <!--Template Method View Controller-->
         <scene sceneID="F2q-CU-XPd">
@@ -62,7 +62,119 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7Nh-BG-zC3" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-4746" y="2733"/>
+            <point key="canvasLocation" x="-6000" y="244"/>
+        </scene>
+        <!--Facade View Controller-->
+        <scene sceneID="e20-e6-3ti">
+            <objects>
+                <viewController id="QaL-rh-pGV" customClass="FacadeViewController" customModule="DesignPattern" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Qd9-ys-GgC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Only show in console" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jWb-u1-BZW">
+                                <rect key="frame" x="126.5" y="433" width="161" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="EPN-JF-Zww"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="jWb-u1-BZW" firstAttribute="centerY" secondItem="EPN-JF-Zww" secondAttribute="centerY" id="DnK-vg-eLL"/>
+                            <constraint firstItem="jWb-u1-BZW" firstAttribute="centerX" secondItem="EPN-JF-Zww" secondAttribute="centerX" id="pBy-jH-bH3"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="kDQ-cc-J5x"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ak3-sa-Auv" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-6000" y="1112"/>
+        </scene>
+        <!--Builder View Controller-->
+        <scene sceneID="3Jv-EN-fk8">
+            <objects>
+                <viewController id="hhx-NB-KbC" customClass="BuilderViewController" customModule="DesignPattern" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="xEK-rq-BQV">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Only show in console" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rGT-CT-sKt">
+                                <rect key="frame" x="126.5" y="433" width="161" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="FBg-n7-BaZ"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="rGT-CT-sKt" firstAttribute="centerX" secondItem="FBg-n7-BaZ" secondAttribute="centerX" id="QlU-hT-IcF"/>
+                            <constraint firstItem="rGT-CT-sKt" firstAttribute="centerY" secondItem="FBg-n7-BaZ" secondAttribute="centerY" id="gWS-6J-Sk7"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="FNm-zU-mOa"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Uq5-Ag-GQj" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-5999" y="2008"/>
+        </scene>
+        <!--Builder Pattern2 View Controller-->
+        <scene sceneID="8Vn-7u-gwF">
+            <objects>
+                <viewController id="vjZ-U1-b22" customClass="BuilderPattern2ViewController" customModule="DesignPattern" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="rDN-lS-c88">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Only show in console" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TuM-y5-UlR">
+                                <rect key="frame" x="126.5" y="432.5" width="161" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="cQL-N3-hY2"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="TuM-y5-UlR" firstAttribute="centerY" secondItem="cQL-N3-hY2" secondAttribute="centerY" id="4PC-cH-4Di"/>
+                            <constraint firstItem="TuM-y5-UlR" firstAttribute="centerX" secondItem="cQL-N3-hY2" secondAttribute="centerX" id="t4R-5h-iZn"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="6aD-Sl-C2A"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="h0j-Iv-bxo" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-6000" y="2902"/>
+        </scene>
+        <!--Observer Pattern View Controller-->
+        <scene sceneID="rNV-c4-8xW">
+            <objects>
+                <viewController id="01b-Ci-DJz" customClass="ObserverPatternViewController" customModule="DesignPattern" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="htj-tq-Kqb">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Only show in console" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mGn-JR-IPT">
+                                <rect key="frame" x="126.5" y="432.5" width="161" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="h0L-yu-KY7"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="mGn-JR-IPT" firstAttribute="centerX" secondItem="h0L-yu-KY7" secondAttribute="centerX" id="DoO-HW-gin"/>
+                            <constraint firstItem="mGn-JR-IPT" firstAttribute="centerY" secondItem="h0L-yu-KY7" secondAttribute="centerY" id="lID-5G-0Ah"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="vMn-BF-Opo"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="o6e-Ds-ai4" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-6027" y="3824"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
@@ -72,11 +184,11 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="66" translatesAutoresizingMaskIntoConstraints="NO" id="IYQ-WV-uQ3">
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="24" translatesAutoresizingMaskIntoConstraints="NO" id="IYQ-WV-uQ3">
                                 <rect key="frame" x="12" y="56" width="390" height="794"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" verticalCompressionResistancePriority="749" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aZ5-DV-U4R">
-                                        <rect key="frame" x="0.0" y="0.0" width="390" height="20"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="390" height="34.5"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="gray" title="Simple Fsctory 1"/>
                                         <connections>
@@ -84,7 +196,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6UG-Jb-eQQ">
-                                        <rect key="frame" x="0.0" y="86" width="390" height="20"/>
+                                        <rect key="frame" x="0.0" y="58.5" width="390" height="34.5"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="gray" title="Simple Fsctory 2"/>
                                         <connections>
@@ -92,7 +204,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="v8v-Nl-kO3">
-                                        <rect key="frame" x="0.0" y="172" width="390" height="20"/>
+                                        <rect key="frame" x="0.0" y="117" width="390" height="34.5"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="gray" title="Strategy Pattern"/>
                                         <connections>
@@ -100,7 +212,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="arq-bc-b4M">
-                                        <rect key="frame" x="0.0" y="258" width="390" height="20"/>
+                                        <rect key="frame" x="0.0" y="175.5" width="390" height="34"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="gray" title="Strategy Pattern Plus Simple Fsctory "/>
                                         <connections>
@@ -108,7 +220,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZqP-3n-hUV">
-                                        <rect key="frame" x="0.0" y="344" width="390" height="20"/>
+                                        <rect key="frame" x="0.0" y="233.5" width="390" height="34.5"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="gray" title="Decorator Pattern"/>
                                         <connections>
@@ -116,7 +228,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="czj-e2-5ev">
-                                        <rect key="frame" x="0.0" y="430" width="390" height="20"/>
+                                        <rect key="frame" x="0.0" y="292" width="390" height="34.5"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="gray" title="Proxy Pattern"/>
                                         <connections>
@@ -124,7 +236,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8TJ-rE-DoJ">
-                                        <rect key="frame" x="0.0" y="516" width="390" height="20"/>
+                                        <rect key="frame" x="0.0" y="350.5" width="390" height="34.5"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="gray" title="Factory Pattern"/>
                                         <connections>
@@ -132,7 +244,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YUJ-yZ-IiI">
-                                        <rect key="frame" x="0.0" y="602" width="390" height="20"/>
+                                        <rect key="frame" x="0.0" y="409" width="390" height="34.5"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="gray" title="Factory Pattern2"/>
                                         <connections>
@@ -140,7 +252,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lUj-Fq-aLd">
-                                        <rect key="frame" x="0.0" y="688" width="390" height="20"/>
+                                        <rect key="frame" x="0.0" y="467.5" width="390" height="34.5"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="gray" title="Proto Pattern"/>
                                         <connections>
@@ -148,11 +260,43 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RVv-of-bI0">
-                                        <rect key="frame" x="0.0" y="774" width="390" height="20"/>
+                                        <rect key="frame" x="0.0" y="526" width="390" height="34.5"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="gray" title="TemplateMethod Pattern"/>
                                         <connections>
                                             <segue destination="v2i-9d-6LA" kind="show" id="UbZ-qY-HPK"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rEr-R5-NER">
+                                        <rect key="frame" x="0.0" y="584.5" width="390" height="34"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="gray" title="Facade Pattern"/>
+                                        <connections>
+                                            <segue destination="QaL-rh-pGV" kind="show" id="0mr-VX-goZ"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RaY-GT-CVb">
+                                        <rect key="frame" x="0.0" y="642.5" width="390" height="34.5"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="gray" title="Builder Pattern"/>
+                                        <connections>
+                                            <segue destination="hhx-NB-KbC" kind="show" id="2xf-6Y-gsS"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SMn-Gc-UMp">
+                                        <rect key="frame" x="0.0" y="701" width="390" height="34.5"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="gray" title="Builder Pattern2"/>
+                                        <connections>
+                                            <segue destination="vjZ-U1-b22" kind="show" id="OE2-OH-Y9G"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gOt-FB-Zb1">
+                                        <rect key="frame" x="0.0" y="759.5" width="390" height="34.5"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="gray" title="Observer Pattern"/>
+                                        <connections>
+                                            <segue destination="01b-Ci-DJz" kind="show" id="fgS-K9-3tb"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -172,7 +316,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-2645" y="2513"/>
+            <point key="canvasLocation" x="-2454" y="2466"/>
         </scene>
         <!--Decorator View Controller-->
         <scene sceneID="0G5-El-5sx">
