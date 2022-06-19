@@ -176,6 +176,34 @@
             </objects>
             <point key="canvasLocation" x="-6027" y="3824"/>
         </scene>
+        <!--Observer Pattern plus Event Handler View Controller-->
+        <scene sceneID="K1S-q9-mdE">
+            <objects>
+                <viewController id="Vdw-7x-Qkl" customClass="ObserverPattern_plus_EventHandlerViewController" customModule="DesignPattern" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Drw-r7-y3B">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Only show in console" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9Ov-Sc-6RE">
+                                <rect key="frame" x="126.5" y="432.5" width="161" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="iBj-3s-qaB"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="9Ov-Sc-6RE" firstAttribute="centerX" secondItem="iBj-3s-qaB" secondAttribute="centerX" id="Qz1-2B-U92"/>
+                            <constraint firstItem="9Ov-Sc-6RE" firstAttribute="centerY" secondItem="iBj-3s-qaB" secondAttribute="centerY" id="gUs-Sp-FBA"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="cUZ-M9-XC5"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Kbb-pF-mFz" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-5966" y="4755"/>
+        </scene>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
@@ -188,7 +216,7 @@
                                 <rect key="frame" x="12" y="56" width="390" height="794"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" verticalCompressionResistancePriority="749" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aZ5-DV-U4R">
-                                        <rect key="frame" x="0.0" y="0.0" width="390" height="34.5"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="390" height="30.5"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="gray" title="Simple Fsctory 1"/>
                                         <connections>
@@ -196,7 +224,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6UG-Jb-eQQ">
-                                        <rect key="frame" x="0.0" y="58.5" width="390" height="34.5"/>
+                                        <rect key="frame" x="0.0" y="54.5" width="390" height="30.5"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="gray" title="Simple Fsctory 2"/>
                                         <connections>
@@ -204,7 +232,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="v8v-Nl-kO3">
-                                        <rect key="frame" x="0.0" y="117" width="390" height="34.5"/>
+                                        <rect key="frame" x="0.0" y="109" width="390" height="30.5"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="gray" title="Strategy Pattern"/>
                                         <connections>
@@ -212,7 +240,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="arq-bc-b4M">
-                                        <rect key="frame" x="0.0" y="175.5" width="390" height="34"/>
+                                        <rect key="frame" x="0.0" y="163.5" width="390" height="30.5"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="gray" title="Strategy Pattern Plus Simple Fsctory "/>
                                         <connections>
@@ -220,7 +248,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZqP-3n-hUV">
-                                        <rect key="frame" x="0.0" y="233.5" width="390" height="34.5"/>
+                                        <rect key="frame" x="0.0" y="218" width="390" height="30.5"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="gray" title="Decorator Pattern"/>
                                         <connections>
@@ -228,7 +256,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="czj-e2-5ev">
-                                        <rect key="frame" x="0.0" y="292" width="390" height="34.5"/>
+                                        <rect key="frame" x="0.0" y="272.5" width="390" height="30.5"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="gray" title="Proxy Pattern"/>
                                         <connections>
@@ -236,7 +264,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8TJ-rE-DoJ">
-                                        <rect key="frame" x="0.0" y="350.5" width="390" height="34.5"/>
+                                        <rect key="frame" x="0.0" y="327" width="390" height="30.5"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="gray" title="Factory Pattern"/>
                                         <connections>
@@ -244,7 +272,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YUJ-yZ-IiI">
-                                        <rect key="frame" x="0.0" y="409" width="390" height="34.5"/>
+                                        <rect key="frame" x="0.0" y="381.5" width="390" height="31"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="gray" title="Factory Pattern2"/>
                                         <connections>
@@ -252,7 +280,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lUj-Fq-aLd">
-                                        <rect key="frame" x="0.0" y="467.5" width="390" height="34.5"/>
+                                        <rect key="frame" x="0.0" y="436.5" width="390" height="30.5"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="gray" title="Proto Pattern"/>
                                         <connections>
@@ -260,7 +288,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RVv-of-bI0">
-                                        <rect key="frame" x="0.0" y="526" width="390" height="34.5"/>
+                                        <rect key="frame" x="0.0" y="491" width="390" height="30.5"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="gray" title="TemplateMethod Pattern"/>
                                         <connections>
@@ -268,7 +296,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rEr-R5-NER">
-                                        <rect key="frame" x="0.0" y="584.5" width="390" height="34"/>
+                                        <rect key="frame" x="0.0" y="545.5" width="390" height="30.5"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="gray" title="Facade Pattern"/>
                                         <connections>
@@ -276,7 +304,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RaY-GT-CVb">
-                                        <rect key="frame" x="0.0" y="642.5" width="390" height="34.5"/>
+                                        <rect key="frame" x="0.0" y="600" width="390" height="30.5"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="gray" title="Builder Pattern"/>
                                         <connections>
@@ -284,7 +312,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SMn-Gc-UMp">
-                                        <rect key="frame" x="0.0" y="701" width="390" height="34.5"/>
+                                        <rect key="frame" x="0.0" y="654.5" width="390" height="30.5"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="gray" title="Builder Pattern2"/>
                                         <connections>
@@ -292,11 +320,19 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gOt-FB-Zb1">
-                                        <rect key="frame" x="0.0" y="759.5" width="390" height="34.5"/>
+                                        <rect key="frame" x="0.0" y="709" width="390" height="30.5"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="gray" title="Observer Pattern"/>
                                         <connections>
                                             <segue destination="01b-Ci-DJz" kind="show" id="fgS-K9-3tb"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uGd-VJ-Yxx">
+                                        <rect key="frame" x="0.0" y="763.5" width="390" height="30.5"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="gray" title="Observer Pattern Plus EventHandler"/>
+                                        <connections>
+                                            <segue destination="Vdw-7x-Qkl" kind="show" id="11p-Se-DDl"/>
                                         </connections>
                                     </button>
                                 </subviews>

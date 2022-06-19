@@ -53,6 +53,10 @@
 		F4CDC8AD285F1C6F00BC0D04 /* Informer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4CDC8AC285F1C6F00BC0D04 /* Informer.swift */; };
 		F4CDC8AF285F1CB800BC0D04 /* Observer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4CDC8AE285F1CB800BC0D04 /* Observer.swift */; };
 		F4CDC8B3285F469D00BC0D04 /* ObserverPattern_plus_EventHandlerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4CDC8B2285F469D00BC0D04 /* ObserverPattern_plus_EventHandlerViewController.swift */; };
+		F4CDC8B6285F48AC00BC0D04 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4CDC8B5285F48AC00BC0D04 /* Event.swift */; };
+		F4CDC8B8285F48BE00BC0D04 /* EventHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4CDC8B7285F48BE00BC0D04 /* EventHandler.swift */; };
+		F4CDC8BA285F492000BC0D04 /* InformerTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4CDC8B9285F492000BC0D04 /* InformerTwo.swift */; };
+		F4CDC8BC285F493100BC0D04 /* ObserverTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4CDC8BB285F493100BC0D04 /* ObserverTwo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -104,6 +108,10 @@
 		F4CDC8AC285F1C6F00BC0D04 /* Informer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Informer.swift; sourceTree = "<group>"; };
 		F4CDC8AE285F1CB800BC0D04 /* Observer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Observer.swift; sourceTree = "<group>"; };
 		F4CDC8B2285F469D00BC0D04 /* ObserverPattern_plus_EventHandlerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObserverPattern_plus_EventHandlerViewController.swift; sourceTree = "<group>"; };
+		F4CDC8B5285F48AC00BC0D04 /* Event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
+		F4CDC8B7285F48BE00BC0D04 /* EventHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventHandler.swift; sourceTree = "<group>"; };
+		F4CDC8B9285F492000BC0D04 /* InformerTwo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InformerTwo.swift; sourceTree = "<group>"; };
+		F4CDC8BB285F493100BC0D04 /* ObserverTwo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObserverTwo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -303,8 +311,20 @@
 			isa = PBXGroup;
 			children = (
 				F4CDC8B2285F469D00BC0D04 /* ObserverPattern_plus_EventHandlerViewController.swift */,
+				F4CDC8B9285F492000BC0D04 /* InformerTwo.swift */,
+				F4CDC8BB285F493100BC0D04 /* ObserverTwo.swift */,
+				F4CDC8B4285F489A00BC0D04 /* Event */,
 			);
 			path = ObserverPattern_plus_EventHandler;
+			sourceTree = "<group>";
+		};
+		F4CDC8B4285F489A00BC0D04 /* Event */ = {
+			isa = PBXGroup;
+			children = (
+				F4CDC8B5285F48AC00BC0D04 /* Event.swift */,
+				F4CDC8B7285F48BE00BC0D04 /* EventHandler.swift */,
+			);
+			path = Event;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -382,6 +402,7 @@
 				F4CDC89F285EFC6D00BC0D04 /* PersonDirector.swift in Sources */,
 				F4CDC88C2855EA1E00BC0D04 /* Resume.swift in Sources */,
 				F43D9B3D284CA510002708CC /* StrategyPatternViewController.swift in Sources */,
+				F4CDC8B8285F48BE00BC0D04 /* EventHandler.swift in Sources */,
 				F4CDC86A2855D46E00BC0D04 /* ProtoViewController.swift in Sources */,
 				F43D9B38284C9619002708CC /* CashSuper.swift in Sources */,
 				F4CDC8AD285F1C6F00BC0D04 /* Informer.swift in Sources */,
@@ -390,6 +411,7 @@
 				F4CDC84E2854F48100BC0D04 /* Finery.swift in Sources */,
 				F43D9B1E284C80D5002708CC /* ViewController.swift in Sources */,
 				F4CDC8652855C03200BC0D04 /* NightingaleFactoryProtocol.swift in Sources */,
+				F4CDC8B6285F48AC00BC0D04 /* Event.swift in Sources */,
 				F4CDC8AB285F18AA00BC0D04 /* ObserverPatternViewController.swift in Sources */,
 				F4CDC84C2854E47B00BC0D04 /* Person.swift in Sources */,
 				F4CDC88F2855F01000BC0D04 /* TemplateMethodViewController.swift in Sources */,
@@ -414,6 +436,7 @@
 				F4CDC8AF285F1CB800BC0D04 /* Observer.swift in Sources */,
 				F4CDC85E285598C100BC0D04 /* FacoryProtocol.swift in Sources */,
 				F4CDC85928558E3600BC0D04 /* Girl.swift in Sources */,
+				F4CDC8BA285F492000BC0D04 /* InformerTwo.swift in Sources */,
 				F43D9B33284C8C68002708CC /* OperationFactory.swift in Sources */,
 				F4CDC85C285597F700BC0D04 /* FactoryViewController.swift in Sources */,
 				F43D9B42284CCAAD002708CC /* StrategyPatternPlusSimpleFactoryViewController.swift in Sources */,
@@ -421,6 +444,7 @@
 				F4CDC8612855BE5800BC0D04 /* Factory2ViewController.swift in Sources */,
 				F4CDC891285778B900BC0D04 /* TeacherPaper.swift in Sources */,
 				F43D9B2E284C851C002708CC /* SimpleFactory1ViewController.swift in Sources */,
+				F4CDC8BC285F493100BC0D04 /* ObserverTwo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

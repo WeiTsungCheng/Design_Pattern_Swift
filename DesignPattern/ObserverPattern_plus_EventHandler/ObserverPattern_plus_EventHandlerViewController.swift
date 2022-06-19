@@ -12,18 +12,24 @@ class ObserverPattern_plus_EventHandlerViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        let informer = SecretaryTwo(action: "")
+        
+        let ob1 = StockObserverTwo(name: "小七", informer: informer)
+        let ob2 = NBAObserverTwo(name: "小子", informer: informer)
+        
+        informer.action = "老版回來了!"
+        
+        let handler = informer.upadate.addHandler(target: ob1.self, handler: StockObserverTwo.closeStock)
+        
+        let handlerTwo = informer.upadate.addHandler(target: ob2.self, handler: NBAObserverTwo.closeNBA)
+        
+        informer.notify()
+        
+        
+        handler.dispose()
+        handlerTwo.dispose()
     }
     
 
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
 
 }
