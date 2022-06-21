@@ -979,10 +979,10 @@
             </objects>
             <point key="canvasLocation" x="8780" y="1785"/>
         </scene>
-        <!--View Controller-->
+        <!--Adapter Pattern View Controller-->
         <scene sceneID="Op9-3q-vOG">
             <objects>
-                <viewController id="tJW-RQ-mGf" sceneMemberID="viewController">
+                <viewController id="tJW-RQ-mGf" customClass="AdapterPatternViewController" customModule="DesignPattern" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="VuY-R9-C3U">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -1029,7 +1029,7 @@
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UlJ-lI-kPz">
                                         <rect key="frame" x="0.0" y="55" width="374" height="31"/>
                                         <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="gray" title="aaa"/>
+                                        <buttonConfiguration key="configuration" style="gray" title="Adapter Pattern"/>
                                         <connections>
                                             <segue destination="tJW-RQ-mGf" kind="show" id="egE-Y5-pRb"/>
                                         </connections>

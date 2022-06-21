@@ -12,18 +12,36 @@ class StatePatternViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        let w = Work()
+        w.hour = 10
+        w.programing()
+        w.hour = 11
+        w.programing()
+        
+        w.hour = 12
+        w.programing()
+        
+        w.hour = 13
+        w.programing()
+        w.hour = 14
+        w.programing()
+        
+      
+
+        w.hour = 17
+        w.programing()
+        w.hour = 18
+        w.programing()
+        
+        w.isTaskFinished = true
+        
+        w.hour = 21
+        w.programing()
+        w.hour = 22
+        w.programing()
+     
     }
     
 
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
 
 }
