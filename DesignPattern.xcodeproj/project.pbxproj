@@ -57,6 +57,17 @@
 		F4CDC8B8285F48BE00BC0D04 /* EventHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4CDC8B7285F48BE00BC0D04 /* EventHandler.swift */; };
 		F4CDC8BA285F492000BC0D04 /* InformerTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4CDC8B9285F492000BC0D04 /* InformerTwo.swift */; };
 		F4CDC8BC285F493100BC0D04 /* ObserverTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4CDC8BB285F493100BC0D04 /* ObserverTwo.swift */; };
+		F4CDC8BF28609B5300BC0D04 /* AbstractFactoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4CDC8BE28609B5300BC0D04 /* AbstractFactoryViewController.swift */; };
+		F4CDC8C128609CCF00BC0D04 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4CDC8C028609CCF00BC0D04 /* User.swift */; };
+		F4CDC8C32860A25A00BC0D04 /* AbstractFactoryProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4CDC8C22860A25A00BC0D04 /* AbstractFactoryProtocol.swift */; };
+		F4CDC8C52860A77F00BC0D04 /* Department.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4CDC8C42860A77F00BC0D04 /* Department.swift */; };
+		F4CDC8C72860A82E00BC0D04 /* DepartmentFactoryProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4CDC8C62860A82E00BC0D04 /* DepartmentFactoryProtocol.swift */; };
+		F4CDC8CA2860DC5400BC0D04 /* AbstractFactory_plus_SimpleFactoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4CDC8C92860DC5400BC0D04 /* AbstractFactory_plus_SimpleFactoryViewController.swift */; };
+		F4CDC8CC2860DC8300BC0D04 /* DataAccess.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4CDC8CB2860DC8300BC0D04 /* DataAccess.swift */; };
+		F4CDC8D028615A0700BC0D04 /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4CDC8CF28615A0700BC0D04 /* StringExtension.swift */; };
+		F4CDC8D228615B6200BC0D04 /* Part1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4CDC8D128615B6200BC0D04 /* Part1ViewController.swift */; };
+		F4CDC8D628615ECE00BC0D04 /* StatePatternViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4CDC8D528615ECE00BC0D04 /* StatePatternViewController.swift */; };
+		F4CDC8D928615EEC00BC0D04 /* Part2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4CDC8D828615EEC00BC0D04 /* Part2ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -112,6 +123,17 @@
 		F4CDC8B7285F48BE00BC0D04 /* EventHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventHandler.swift; sourceTree = "<group>"; };
 		F4CDC8B9285F492000BC0D04 /* InformerTwo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InformerTwo.swift; sourceTree = "<group>"; };
 		F4CDC8BB285F493100BC0D04 /* ObserverTwo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObserverTwo.swift; sourceTree = "<group>"; };
+		F4CDC8BE28609B5300BC0D04 /* AbstractFactoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbstractFactoryViewController.swift; sourceTree = "<group>"; };
+		F4CDC8C028609CCF00BC0D04 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		F4CDC8C22860A25A00BC0D04 /* AbstractFactoryProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbstractFactoryProtocol.swift; sourceTree = "<group>"; };
+		F4CDC8C42860A77F00BC0D04 /* Department.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Department.swift; sourceTree = "<group>"; };
+		F4CDC8C62860A82E00BC0D04 /* DepartmentFactoryProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DepartmentFactoryProtocol.swift; sourceTree = "<group>"; };
+		F4CDC8C92860DC5400BC0D04 /* AbstractFactory_plus_SimpleFactoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbstractFactory_plus_SimpleFactoryViewController.swift; sourceTree = "<group>"; };
+		F4CDC8CB2860DC8300BC0D04 /* DataAccess.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataAccess.swift; sourceTree = "<group>"; };
+		F4CDC8CF28615A0700BC0D04 /* StringExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
+		F4CDC8D128615B6200BC0D04 /* Part1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Part1ViewController.swift; sourceTree = "<group>"; };
+		F4CDC8D528615ECE00BC0D04 /* StatePatternViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatePatternViewController.swift; sourceTree = "<group>"; };
+		F4CDC8D828615EEC00BC0D04 /* Part2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Part2ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -147,21 +169,9 @@
 				F43D9B19284C80D5002708CC /* AppDelegate.swift */,
 				F43D9B1B284C80D5002708CC /* SceneDelegate.swift */,
 				F43D9B1D284C80D5002708CC /* ViewController.swift */,
-				F43D9B2F284C886B002708CC /* SimpleFactory1 */,
-				F43D9B34284C92D8002708CC /* SimpleFactory2 */,
-				F43D9B3B284CA4CD002708CC /* StrategyPattern */,
-				F43D9B40284CC931002708CC /* StrategyPattern_plus_SimpleFactory */,
-				F4CDC84A2854E38800BC0D04 /* DecoratorPattern */,
-				F4CDC8512855094700BC0D04 /* ProxyPattern */,
-				F4CDC85A285597D200BC0D04 /* FactoryPattern */,
-				F4CDC85F2855BE1200BC0D04 /* FactoryPattern2 */,
-				F4CDC8682855D43400BC0D04 /* ProtoPattern */,
-				F4CDC88D2855EFB300BC0D04 /* TemplateMethodPattern */,
-				F4CDC892285A45D200BC0D04 /* FacadePattern */,
-				F4CDC899285EFBAB00BC0D04 /* BuilderPattern */,
-				F4CDC8A0285F038100BC0D04 /* BuilderPattern2 */,
-				F4CDC8A9285F173E00BC0D04 /* ObserverPattern */,
-				F4CDC8B0285F461200BC0D04 /* ObserverPattern_plus_EventHandler */,
+				F4CDC8CD286159C300BC0D04 /* Utility */,
+				F4CDC8D328615B7800BC0D04 /* Part1 */,
+				F4CDC8D428615EA200BC0D04 /* Part2 */,
 				F43D9B1F284C80D5002708CC /* Main.storyboard */,
 				F43D9B22284C80D6002708CC /* Assets.xcassets */,
 				F43D9B24284C80D6002708CC /* LaunchScreen.storyboard */,
@@ -313,7 +323,6 @@
 				F4CDC8B2285F469D00BC0D04 /* ObserverPattern_plus_EventHandlerViewController.swift */,
 				F4CDC8B9285F492000BC0D04 /* InformerTwo.swift */,
 				F4CDC8BB285F493100BC0D04 /* ObserverTwo.swift */,
-				F4CDC8B4285F489A00BC0D04 /* Event */,
 			);
 			path = ObserverPattern_plus_EventHandler;
 			sourceTree = "<group>";
@@ -325,6 +334,86 @@
 				F4CDC8B7285F48BE00BC0D04 /* EventHandler.swift */,
 			);
 			path = Event;
+			sourceTree = "<group>";
+		};
+		F4CDC8BD28609ACC00BC0D04 /* AbstractFactory */ = {
+			isa = PBXGroup;
+			children = (
+				F4CDC8BE28609B5300BC0D04 /* AbstractFactoryViewController.swift */,
+				F4CDC8C028609CCF00BC0D04 /* User.swift */,
+				F4CDC8C22860A25A00BC0D04 /* AbstractFactoryProtocol.swift */,
+				F4CDC8C42860A77F00BC0D04 /* Department.swift */,
+				F4CDC8C62860A82E00BC0D04 /* DepartmentFactoryProtocol.swift */,
+			);
+			path = AbstractFactory;
+			sourceTree = "<group>";
+		};
+		F4CDC8C82860DBF600BC0D04 /* AbstractFactory_plus_SimpleFactory */ = {
+			isa = PBXGroup;
+			children = (
+				F4CDC8C92860DC5400BC0D04 /* AbstractFactory_plus_SimpleFactoryViewController.swift */,
+				F4CDC8CB2860DC8300BC0D04 /* DataAccess.swift */,
+			);
+			path = AbstractFactory_plus_SimpleFactory;
+			sourceTree = "<group>";
+		};
+		F4CDC8CD286159C300BC0D04 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				F4CDC8B4285F489A00BC0D04 /* Event */,
+				F4CDC8CE286159F000BC0D04 /* Extension */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		F4CDC8CE286159F000BC0D04 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				F4CDC8CF28615A0700BC0D04 /* StringExtension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		F4CDC8D328615B7800BC0D04 /* Part1 */ = {
+			isa = PBXGroup;
+			children = (
+				F4CDC8D128615B6200BC0D04 /* Part1ViewController.swift */,
+				F43D9B2F284C886B002708CC /* SimpleFactory1 */,
+				F43D9B34284C92D8002708CC /* SimpleFactory2 */,
+				F43D9B3B284CA4CD002708CC /* StrategyPattern */,
+				F43D9B40284CC931002708CC /* StrategyPattern_plus_SimpleFactory */,
+				F4CDC84A2854E38800BC0D04 /* DecoratorPattern */,
+				F4CDC8512855094700BC0D04 /* ProxyPattern */,
+				F4CDC85A285597D200BC0D04 /* FactoryPattern */,
+				F4CDC85F2855BE1200BC0D04 /* FactoryPattern2 */,
+				F4CDC8682855D43400BC0D04 /* ProtoPattern */,
+				F4CDC88D2855EFB300BC0D04 /* TemplateMethodPattern */,
+				F4CDC892285A45D200BC0D04 /* FacadePattern */,
+				F4CDC899285EFBAB00BC0D04 /* BuilderPattern */,
+				F4CDC8A0285F038100BC0D04 /* BuilderPattern2 */,
+				F4CDC8A9285F173E00BC0D04 /* ObserverPattern */,
+				F4CDC8B0285F461200BC0D04 /* ObserverPattern_plus_EventHandler */,
+				F4CDC8BD28609ACC00BC0D04 /* AbstractFactory */,
+				F4CDC8C82860DBF600BC0D04 /* AbstractFactory_plus_SimpleFactory */,
+			);
+			path = Part1;
+			sourceTree = "<group>";
+		};
+		F4CDC8D428615EA200BC0D04 /* Part2 */ = {
+			isa = PBXGroup;
+			children = (
+				F4CDC8D828615EEC00BC0D04 /* Part2ViewController.swift */,
+				F4CDC8D728615ED300BC0D04 /* StatePattern */,
+			);
+			path = Part2;
+			sourceTree = "<group>";
+		};
+		F4CDC8D728615ED300BC0D04 /* StatePattern */ = {
+			isa = PBXGroup;
+			children = (
+				F4CDC8D528615ECE00BC0D04 /* StatePatternViewController.swift */,
+			);
+			path = StatePattern;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -399,7 +488,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				F4CDC8A2285F042700BC0D04 /* BuilderPattern2ViewController.swift in Sources */,
+				F4CDC8CA2860DC5400BC0D04 /* AbstractFactory_plus_SimpleFactoryViewController.swift in Sources */,
+				F4CDC8BF28609B5300BC0D04 /* AbstractFactoryViewController.swift in Sources */,
 				F4CDC89F285EFC6D00BC0D04 /* PersonDirector.swift in Sources */,
+				F4CDC8D928615EEC00BC0D04 /* Part2ViewController.swift in Sources */,
 				F4CDC88C2855EA1E00BC0D04 /* Resume.swift in Sources */,
 				F43D9B3D284CA510002708CC /* StrategyPatternViewController.swift in Sources */,
 				F4CDC8B8285F48BE00BC0D04 /* EventHandler.swift in Sources */,
@@ -413,9 +505,11 @@
 				F4CDC8652855C03200BC0D04 /* NightingaleFactoryProtocol.swift in Sources */,
 				F4CDC8B6285F48AC00BC0D04 /* Event.swift in Sources */,
 				F4CDC8AB285F18AA00BC0D04 /* ObserverPatternViewController.swift in Sources */,
+				F4CDC8C72860A82E00BC0D04 /* DepartmentFactoryProtocol.swift in Sources */,
 				F4CDC84C2854E47B00BC0D04 /* Person.swift in Sources */,
 				F4CDC88F2855F01000BC0D04 /* TemplateMethodViewController.swift in Sources */,
 				F4CDC898285DE66D00BC0D04 /* Stock.swift in Sources */,
+				F4CDC8D628615ECE00BC0D04 /* StatePatternViewController.swift in Sources */,
 				F4CDC89D285EFC2700BC0D04 /* PersonBuilder.swift in Sources */,
 				F4CDC8632855BE8500BC0D04 /* Nightingale.swift in Sources */,
 				F4CDC85728558E1300BC0D04 /* PersuitProxy.swift in Sources */,
@@ -430,6 +524,7 @@
 				F4CDC8A4285F0A1900BC0D04 /* CarBuilder.swift in Sources */,
 				F4CDC8B3285F469D00BC0D04 /* ObserverPattern_plus_EventHandlerViewController.swift in Sources */,
 				F4CDC896285DE4C600BC0D04 /* FundInc.swift in Sources */,
+				F4CDC8D228615B6200BC0D04 /* Part1ViewController.swift in Sources */,
 				F4CDC8A6285F0A4600BC0D04 /* CarDirector.swift in Sources */,
 				F4CDC850285505E300BC0D04 /* DecoratorViewController.swift in Sources */,
 				F43D9B31284C8909002708CC /* Operation.swift in Sources */,
@@ -437,14 +532,19 @@
 				F4CDC85E285598C100BC0D04 /* FacoryProtocol.swift in Sources */,
 				F4CDC85928558E3600BC0D04 /* Girl.swift in Sources */,
 				F4CDC8BA285F492000BC0D04 /* InformerTwo.swift in Sources */,
+				F4CDC8D028615A0700BC0D04 /* StringExtension.swift in Sources */,
 				F43D9B33284C8C68002708CC /* OperationFactory.swift in Sources */,
+				F4CDC8CC2860DC8300BC0D04 /* DataAccess.swift in Sources */,
+				F4CDC8C128609CCF00BC0D04 /* User.swift in Sources */,
 				F4CDC85C285597F700BC0D04 /* FactoryViewController.swift in Sources */,
 				F43D9B42284CCAAD002708CC /* StrategyPatternPlusSimpleFactoryViewController.swift in Sources */,
 				F43D9B3A284C9C43002708CC /* CashSuperFactory.swift in Sources */,
 				F4CDC8612855BE5800BC0D04 /* Factory2ViewController.swift in Sources */,
 				F4CDC891285778B900BC0D04 /* TeacherPaper.swift in Sources */,
+				F4CDC8C52860A77F00BC0D04 /* Department.swift in Sources */,
 				F43D9B2E284C851C002708CC /* SimpleFactory1ViewController.swift in Sources */,
 				F4CDC8BC285F493100BC0D04 /* ObserverTwo.swift in Sources */,
+				F4CDC8C32860A25A00BC0D04 /* AbstractFactoryProtocol.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
