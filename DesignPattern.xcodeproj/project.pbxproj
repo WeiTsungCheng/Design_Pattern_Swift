@@ -75,6 +75,12 @@
 		F4CDC8E42862215D00BC0D04 /* Translator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4CDC8E32862215D00BC0D04 /* Translator.swift */; };
 		F4CDC8E82862260100BC0D04 /* MementoPatternViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4CDC8E72862260100BC0D04 /* MementoPatternViewController.swift */; };
 		F4CDC8EC2862273700BC0D04 /* CompositePatternViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4CDC8EB2862273700BC0D04 /* CompositePatternViewController.swift */; };
+		F4CDC8EE2867106500BC0D04 /* GameRole.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4CDC8ED2867106500BC0D04 /* GameRole.swift */; };
+		F4CDC8F02867113300BC0D04 /* RoleStateMemento.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4CDC8EF2867113300BC0D04 /* RoleStateMemento.swift */; };
+		F4CDC8F22867184700BC0D04 /* RoleStateCaretaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4CDC8F12867184700BC0D04 /* RoleStateCaretaker.swift */; };
+		F4CDC8F428672E4400BC0D04 /* Company.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4CDC8F328672E4400BC0D04 /* Company.swift */; };
+		F4CDC8F62867309500BC0D04 /* ConcreteCompany.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4CDC8F52867309500BC0D04 /* ConcreteCompany.swift */; };
+		F4CDC8F9286730DD00BC0D04 /* CompanyDepartment.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4CDC8F8286730DD00BC0D04 /* CompanyDepartment.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -148,6 +154,12 @@
 		F4CDC8E32862215D00BC0D04 /* Translator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Translator.swift; sourceTree = "<group>"; };
 		F4CDC8E72862260100BC0D04 /* MementoPatternViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MementoPatternViewController.swift; sourceTree = "<group>"; };
 		F4CDC8EB2862273700BC0D04 /* CompositePatternViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompositePatternViewController.swift; sourceTree = "<group>"; };
+		F4CDC8ED2867106500BC0D04 /* GameRole.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameRole.swift; sourceTree = "<group>"; };
+		F4CDC8EF2867113300BC0D04 /* RoleStateMemento.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoleStateMemento.swift; sourceTree = "<group>"; };
+		F4CDC8F12867184700BC0D04 /* RoleStateCaretaker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoleStateCaretaker.swift; sourceTree = "<group>"; };
+		F4CDC8F328672E4400BC0D04 /* Company.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Company.swift; sourceTree = "<group>"; };
+		F4CDC8F52867309500BC0D04 /* ConcreteCompany.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConcreteCompany.swift; sourceTree = "<group>"; };
+		F4CDC8F8286730DD00BC0D04 /* CompanyDepartment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompanyDepartment.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -449,6 +461,9 @@
 			isa = PBXGroup;
 			children = (
 				F4CDC8E72862260100BC0D04 /* MementoPatternViewController.swift */,
+				F4CDC8ED2867106500BC0D04 /* GameRole.swift */,
+				F4CDC8EF2867113300BC0D04 /* RoleStateMemento.swift */,
+				F4CDC8F12867184700BC0D04 /* RoleStateCaretaker.swift */,
 			);
 			path = MementoPattern;
 			sourceTree = "<group>";
@@ -457,6 +472,9 @@
 			isa = PBXGroup;
 			children = (
 				F4CDC8EB2862273700BC0D04 /* CompositePatternViewController.swift */,
+				F4CDC8F328672E4400BC0D04 /* Company.swift */,
+				F4CDC8F52867309500BC0D04 /* ConcreteCompany.swift */,
+				F4CDC8F8286730DD00BC0D04 /* CompanyDepartment.swift */,
 			);
 			path = CompositePattern;
 			sourceTree = "<group>";
@@ -550,6 +568,7 @@
 				F4CDC84E2854F48100BC0D04 /* Finery.swift in Sources */,
 				F43D9B1E284C80D5002708CC /* ViewController.swift in Sources */,
 				F4CDC8652855C03200BC0D04 /* NightingaleFactoryProtocol.swift in Sources */,
+				F4CDC8F62867309500BC0D04 /* ConcreteCompany.swift in Sources */,
 				F4CDC8B6285F48AC00BC0D04 /* Event.swift in Sources */,
 				F4CDC8AB285F18AA00BC0D04 /* ObserverPatternViewController.swift in Sources */,
 				F4CDC8C72860A82E00BC0D04 /* DepartmentFactoryProtocol.swift in Sources */,
@@ -569,12 +588,15 @@
 				F4CDC894285DE28000BC0D04 /* FacadeViewController.swift in Sources */,
 				F43D9B44284CCC76002708CC /* CashContextNew.swift in Sources */,
 				F43D9B3F284CAA2E002708CC /* CashContext.swift in Sources */,
+				F4CDC8EE2867106500BC0D04 /* GameRole.swift in Sources */,
 				F4CDC8A4285F0A1900BC0D04 /* CarBuilder.swift in Sources */,
 				F4CDC8B3285F469D00BC0D04 /* ObserverPattern_plus_EventHandlerViewController.swift in Sources */,
 				F4CDC896285DE4C600BC0D04 /* FundInc.swift in Sources */,
+				F4CDC8F428672E4400BC0D04 /* Company.swift in Sources */,
 				F4CDC8D228615B6200BC0D04 /* Part1ViewController.swift in Sources */,
 				F4CDC8A6285F0A4600BC0D04 /* CarDirector.swift in Sources */,
 				F4CDC850285505E300BC0D04 /* DecoratorViewController.swift in Sources */,
+				F4CDC8F22867184700BC0D04 /* RoleStateCaretaker.swift in Sources */,
 				F4CDC8E82862260100BC0D04 /* MementoPatternViewController.swift in Sources */,
 				F4CDC8DB2861EEB900BC0D04 /* Work.swift in Sources */,
 				F43D9B31284C8909002708CC /* Operation.swift in Sources */,
@@ -585,6 +607,7 @@
 				F4CDC8BA285F492000BC0D04 /* InformerTwo.swift in Sources */,
 				F4CDC8D028615A0700BC0D04 /* StringExtension.swift in Sources */,
 				F43D9B33284C8C68002708CC /* OperationFactory.swift in Sources */,
+				F4CDC8F9286730DD00BC0D04 /* CompanyDepartment.swift in Sources */,
 				F4CDC8CC2860DC8300BC0D04 /* DataAccess.swift in Sources */,
 				F4CDC8C128609CCF00BC0D04 /* User.swift in Sources */,
 				F4CDC85C285597F700BC0D04 /* FactoryViewController.swift in Sources */,
@@ -594,6 +617,7 @@
 				F4CDC8612855BE5800BC0D04 /* Factory2ViewController.swift in Sources */,
 				F4CDC891285778B900BC0D04 /* TeacherPaper.swift in Sources */,
 				F4CDC8C52860A77F00BC0D04 /* Department.swift in Sources */,
+				F4CDC8F02867113300BC0D04 /* RoleStateMemento.swift in Sources */,
 				F43D9B2E284C851C002708CC /* SimpleFactory1ViewController.swift in Sources */,
 				F4CDC8BC285F493100BC0D04 /* ObserverTwo.swift in Sources */,
 				F4CDC8C32860A25A00BC0D04 /* AbstractFactoryProtocol.swift in Sources */,
