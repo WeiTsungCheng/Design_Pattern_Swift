@@ -20,11 +20,11 @@ class PersuitProxy: LoveProtocol {
     }
     
     func giveFlower() {
-        print("!!! give flower to \(persuit.lover.name)")
+        persuit.giveFlower()
     }
     
     func giveChocolate() {
-        print("!!! give chocolate to \(persuit.lover.name)")
+        persuit.giveChocolate()
     }
     
 }

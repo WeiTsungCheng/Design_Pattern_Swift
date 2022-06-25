@@ -27,12 +27,10 @@ class Persuit: LoveProtocol {
         
     func giveFlower() {
         print("give flower to \(lover.name)")
-        fatalError("Use proxy only")
     }
     
     func giveChocolate() {
         print("give chocolate to \(lover.name)")
-        fatalError("Use proxy only")
     }
     
 }

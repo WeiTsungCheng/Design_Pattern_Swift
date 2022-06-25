@@ -71,6 +71,10 @@
 		F4CDC8DB2861EEB900BC0D04 /* Work.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4CDC8DA2861EEB900BC0D04 /* Work.swift */; };
 		F4CDC8DD2861EEFB00BC0D04 /* State.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4CDC8DC2861EEFB00BC0D04 /* State.swift */; };
 		F4CDC8E02861FDF500BC0D04 /* AdapterPatternViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4CDC8DF2861FDF500BC0D04 /* AdapterPatternViewController.swift */; };
+		F4CDC8E228621C7700BC0D04 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4CDC8E128621C7700BC0D04 /* Player.swift */; };
+		F4CDC8E42862215D00BC0D04 /* Translator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4CDC8E32862215D00BC0D04 /* Translator.swift */; };
+		F4CDC8E82862260100BC0D04 /* MementoPatternViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4CDC8E72862260100BC0D04 /* MementoPatternViewController.swift */; };
+		F4CDC8EC2862273700BC0D04 /* CompositePatternViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4CDC8EB2862273700BC0D04 /* CompositePatternViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -140,6 +144,10 @@
 		F4CDC8DA2861EEB900BC0D04 /* Work.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Work.swift; sourceTree = "<group>"; };
 		F4CDC8DC2861EEFB00BC0D04 /* State.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = State.swift; sourceTree = "<group>"; };
 		F4CDC8DF2861FDF500BC0D04 /* AdapterPatternViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdapterPatternViewController.swift; sourceTree = "<group>"; };
+		F4CDC8E128621C7700BC0D04 /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		F4CDC8E32862215D00BC0D04 /* Translator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Translator.swift; sourceTree = "<group>"; };
+		F4CDC8E72862260100BC0D04 /* MementoPatternViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MementoPatternViewController.swift; sourceTree = "<group>"; };
+		F4CDC8EB2862273700BC0D04 /* CompositePatternViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompositePatternViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -411,6 +419,8 @@
 				F4CDC8D828615EEC00BC0D04 /* Part2ViewController.swift */,
 				F4CDC8D728615ED300BC0D04 /* StatePattern */,
 				F4CDC8DE2861FDD000BC0D04 /* AdapterPattern */,
+				F4CDC8E52862259400BC0D04 /* MementoPattern */,
+				F4CDC8E9286226F500BC0D04 /* CompositePattern */,
 			);
 			path = Part2;
 			sourceTree = "<group>";
@@ -429,8 +439,26 @@
 			isa = PBXGroup;
 			children = (
 				F4CDC8DF2861FDF500BC0D04 /* AdapterPatternViewController.swift */,
+				F4CDC8E128621C7700BC0D04 /* Player.swift */,
+				F4CDC8E32862215D00BC0D04 /* Translator.swift */,
 			);
 			path = AdapterPattern;
+			sourceTree = "<group>";
+		};
+		F4CDC8E52862259400BC0D04 /* MementoPattern */ = {
+			isa = PBXGroup;
+			children = (
+				F4CDC8E72862260100BC0D04 /* MementoPatternViewController.swift */,
+			);
+			path = MementoPattern;
+			sourceTree = "<group>";
+		};
+		F4CDC8E9286226F500BC0D04 /* CompositePattern */ = {
+			isa = PBXGroup;
+			children = (
+				F4CDC8EB2862273700BC0D04 /* CompositePatternViewController.swift */,
+			);
+			path = CompositePattern;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -517,6 +545,7 @@
 				F4CDC8E02861FDF500BC0D04 /* AdapterPatternViewController.swift in Sources */,
 				F4CDC8AD285F1C6F00BC0D04 /* Informer.swift in Sources */,
 				F4CDC89B285EFBD700BC0D04 /* BuilderViewController.swift in Sources */,
+				F4CDC8E42862215D00BC0D04 /* Translator.swift in Sources */,
 				F43D9B36284C92F3002708CC /* SimpleFactory2ViewController.swift in Sources */,
 				F4CDC84E2854F48100BC0D04 /* Finery.swift in Sources */,
 				F43D9B1E284C80D5002708CC /* ViewController.swift in Sources */,
@@ -546,8 +575,10 @@
 				F4CDC8D228615B6200BC0D04 /* Part1ViewController.swift in Sources */,
 				F4CDC8A6285F0A4600BC0D04 /* CarDirector.swift in Sources */,
 				F4CDC850285505E300BC0D04 /* DecoratorViewController.swift in Sources */,
+				F4CDC8E82862260100BC0D04 /* MementoPatternViewController.swift in Sources */,
 				F4CDC8DB2861EEB900BC0D04 /* Work.swift in Sources */,
 				F43D9B31284C8909002708CC /* Operation.swift in Sources */,
+				F4CDC8E228621C7700BC0D04 /* Player.swift in Sources */,
 				F4CDC8AF285F1CB800BC0D04 /* Observer.swift in Sources */,
 				F4CDC85E285598C100BC0D04 /* FacoryProtocol.swift in Sources */,
 				F4CDC85928558E3600BC0D04 /* Girl.swift in Sources */,
@@ -557,6 +588,7 @@
 				F4CDC8CC2860DC8300BC0D04 /* DataAccess.swift in Sources */,
 				F4CDC8C128609CCF00BC0D04 /* User.swift in Sources */,
 				F4CDC85C285597F700BC0D04 /* FactoryViewController.swift in Sources */,
+				F4CDC8EC2862273700BC0D04 /* CompositePatternViewController.swift in Sources */,
 				F43D9B42284CCAAD002708CC /* StrategyPatternPlusSimpleFactoryViewController.swift in Sources */,
 				F43D9B3A284C9C43002708CC /* CashSuperFactory.swift in Sources */,
 				F4CDC8612855BE5800BC0D04 /* Factory2ViewController.swift in Sources */,

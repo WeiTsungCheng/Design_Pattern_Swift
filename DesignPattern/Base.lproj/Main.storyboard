@@ -977,7 +977,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="T7I-gn-tVh" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="8780" y="1785"/>
+            <point key="canvasLocation" x="8842" y="-618"/>
         </scene>
         <!--Adapter Pattern View Controller-->
         <scene sceneID="Op9-3q-vOG">
@@ -1005,7 +1005,63 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ADw-V4-7ez" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="8780" y="3390"/>
+            <point key="canvasLocation" x="8841" y="244"/>
+        </scene>
+        <!--Memento Pattern View Controller-->
+        <scene sceneID="Klp-aM-KCG">
+            <objects>
+                <viewController id="ySZ-yM-89z" customClass="MementoPatternViewController" customModule="DesignPattern" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="pPT-j9-3Y4">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Only show in console" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JDL-nv-l97">
+                                <rect key="frame" x="126.5" y="411" width="161" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="3L9-5X-A9m"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="JDL-nv-l97" firstAttribute="centerY" secondItem="3L9-5X-A9m" secondAttribute="centerY" constant="-21.75" id="754-U0-LwS"/>
+                            <constraint firstItem="JDL-nv-l97" firstAttribute="centerX" secondItem="3L9-5X-A9m" secondAttribute="centerX" id="qNc-Na-PG7"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="cmt-it-OCV"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fa2-cQ-OvP" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="8841" y="1084"/>
+        </scene>
+        <!--Composite Pattern View Controller-->
+        <scene sceneID="aWX-TE-aZu">
+            <objects>
+                <viewController id="SWv-vL-M5Z" customClass="CompositePatternViewController" customModule="DesignPattern" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="kO1-fx-B3A">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Only show in console" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EhS-vo-9aG">
+                                <rect key="frame" x="143" y="456" width="161" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="3i9-bd-TBE"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="EhS-vo-9aG" firstAttribute="centerX" secondItem="3i9-bd-TBE" secondAttribute="centerX" constant="16.5" id="Zal-ld-9Hb"/>
+                            <constraint firstItem="EhS-vo-9aG" firstAttribute="centerY" secondItem="3i9-bd-TBE" secondAttribute="centerY" constant="23.25" id="j65-i5-VUV"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="4od-9X-gf4"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="OXM-uI-1LS" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="8841" y="1933"/>
         </scene>
         <!--Part2 View Controller-->
         <scene sceneID="gWz-4U-oyK">
@@ -1016,7 +1072,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="24" translatesAutoresizingMaskIntoConstraints="NO" id="sxd-zc-UAf">
-                                <rect key="frame" x="20" y="400" width="374" height="86"/>
+                                <rect key="frame" x="20" y="345" width="374" height="196"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" verticalCompressionResistancePriority="749" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0gd-y1-4HI">
                                         <rect key="frame" x="0.0" y="0.0" width="374" height="31"/>
@@ -1032,6 +1088,22 @@
                                         <buttonConfiguration key="configuration" style="gray" title="Adapter Pattern"/>
                                         <connections>
                                             <segue destination="tJW-RQ-mGf" kind="show" id="egE-Y5-pRb"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JNv-a1-nBJ">
+                                        <rect key="frame" x="0.0" y="110" width="374" height="31"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="gray" title="Memento Pattern"/>
+                                        <connections>
+                                            <segue destination="ySZ-yM-89z" kind="show" id="xGx-hD-V9N"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wlt-p4-oxQ">
+                                        <rect key="frame" x="0.0" y="165" width="374" height="31"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="gray" title="Composite Pattern"/>
+                                        <connections>
+                                            <segue destination="SWv-vL-M5Z" kind="show" id="bkU-xD-8nM"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -1050,7 +1122,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3tg-E2-GJp" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="10180" y="2466"/>
+            <point key="canvasLocation" x="12028" y="2438"/>
         </scene>
     </scenes>
     <resources>
