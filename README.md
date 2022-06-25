@@ -23,6 +23,8 @@
 
 10. ObserverPattern 觀察者
 
-11. AbstractFactoryPattern 抽象工廠
+11. StatePattern 狀態
 
-12. AdapterPattern 適配器
+12. AbstractFactoryPattern 抽象工廠
+
+13. AdapterPattern 適配器
