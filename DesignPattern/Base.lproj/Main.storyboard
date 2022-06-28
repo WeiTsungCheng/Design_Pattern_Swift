@@ -1044,7 +1044,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Only show in console" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EhS-vo-9aG">
-                                <rect key="frame" x="143" y="456" width="161" height="20.5"/>
+                                <rect key="frame" x="126.5" y="433" width="161" height="20.5"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -1053,8 +1053,8 @@
                         <viewLayoutGuide key="safeArea" id="3i9-bd-TBE"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="EhS-vo-9aG" firstAttribute="centerX" secondItem="3i9-bd-TBE" secondAttribute="centerX" constant="16.5" id="Zal-ld-9Hb"/>
-                            <constraint firstItem="EhS-vo-9aG" firstAttribute="centerY" secondItem="3i9-bd-TBE" secondAttribute="centerY" constant="23.25" id="j65-i5-VUV"/>
+                            <constraint firstItem="EhS-vo-9aG" firstAttribute="centerX" secondItem="3i9-bd-TBE" secondAttribute="centerX" id="Zal-ld-9Hb"/>
+                            <constraint firstItem="EhS-vo-9aG" firstAttribute="centerY" secondItem="3i9-bd-TBE" secondAttribute="centerY" id="j65-i5-VUV"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="4od-9X-gf4"/>
@@ -1062,6 +1062,62 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="OXM-uI-1LS" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="8841" y="1933"/>
+        </scene>
+        <!--Iterator Pattern View Controller-->
+        <scene sceneID="QZz-XV-R9P">
+            <objects>
+                <viewController id="v26-U9-TQ7" customClass="IteratorPatternViewController" customModule="DesignPattern" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="hQj-mv-bZo">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Only show in console" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="95u-83-u4S">
+                                <rect key="frame" x="126.5" y="433" width="161" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="kmk-ou-UTN"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="95u-83-u4S" firstAttribute="centerY" secondItem="kmk-ou-UTN" secondAttribute="centerY" id="IRB-bv-mmb"/>
+                            <constraint firstItem="95u-83-u4S" firstAttribute="centerX" secondItem="kmk-ou-UTN" secondAttribute="centerX" id="rrn-G7-zJn"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="Rwc-zO-cW8"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="GLc-pf-36s" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="8841" y="2902"/>
+        </scene>
+        <!--Singleton Pattern View Controller-->
+        <scene sceneID="xbk-fQ-Ruh">
+            <objects>
+                <viewController id="fyZ-Bn-Fmp" customClass="SingletonPatternViewController" customModule="DesignPattern" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="E9d-7n-l8Z">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Only show in console" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NTe-PM-xIO">
+                                <rect key="frame" x="126.5" y="433" width="161" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="Lgb-a1-1FE"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="NTe-PM-xIO" firstAttribute="centerX" secondItem="Lgb-a1-1FE" secondAttribute="centerX" id="JAb-KV-gl3"/>
+                            <constraint firstItem="NTe-PM-xIO" firstAttribute="centerY" secondItem="Lgb-a1-1FE" secondAttribute="centerY" id="OxO-jw-doG"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="hsC-rJ-ZtE"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Xn0-E0-jCp" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="8841" y="3824"/>
         </scene>
         <!--Part2 View Controller-->
         <scene sceneID="gWz-4U-oyK">
@@ -1072,7 +1128,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="24" translatesAutoresizingMaskIntoConstraints="NO" id="sxd-zc-UAf">
-                                <rect key="frame" x="20" y="345" width="374" height="196"/>
+                                <rect key="frame" x="20" y="290" width="374" height="306"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" verticalCompressionResistancePriority="749" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0gd-y1-4HI">
                                         <rect key="frame" x="0.0" y="0.0" width="374" height="31"/>
@@ -1104,6 +1160,22 @@
                                         <buttonConfiguration key="configuration" style="gray" title="Composite Pattern"/>
                                         <connections>
                                             <segue destination="SWv-vL-M5Z" kind="show" id="bkU-xD-8nM"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="o2W-NQ-xTq">
+                                        <rect key="frame" x="0.0" y="220" width="374" height="31"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="gray" title="Iterator Pattern"/>
+                                        <connections>
+                                            <segue destination="v26-U9-TQ7" kind="show" id="2pD-f2-xUl"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yDq-ao-4Sg">
+                                        <rect key="frame" x="0.0" y="275" width="374" height="31"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="gray" title="Singleton Pattern"/>
+                                        <connections>
+                                            <segue destination="fyZ-Bn-Fmp" kind="show" id="ist-Ss-tW7"/>
                                         </connections>
                                     </button>
                                 </subviews>

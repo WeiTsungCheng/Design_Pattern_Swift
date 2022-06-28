@@ -12,7 +12,7 @@ class Part2ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        print("Part 2")
+        print("<Part 2>")
        
     }
     
