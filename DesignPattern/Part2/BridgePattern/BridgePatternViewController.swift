@@ -12,7 +12,12 @@ class BridgePatternViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        let b = HandSetBrandHTC()
+        b.setSoft(soft: HandsetGame())
+        b.runSoft()
         
+        b.setSoft(soft: HandsetMP3())
+        b.runSoft()
     }
     
 

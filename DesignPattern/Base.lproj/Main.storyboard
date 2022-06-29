@@ -1119,6 +1119,62 @@
             </objects>
             <point key="canvasLocation" x="8841" y="3824"/>
         </scene>
+        <!--Bridge Pattern View Controller-->
+        <scene sceneID="9WR-VO-IoV">
+            <objects>
+                <viewController id="hTy-nc-3Nq" customClass="BridgePatternViewController" customModule="DesignPattern" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="gqc-Of-C1J">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Only show in console" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9HF-04-XfJ">
+                                <rect key="frame" x="126.5" y="433" width="161" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="Kiv-2a-vTt"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="9HF-04-XfJ" firstAttribute="centerX" secondItem="Kiv-2a-vTt" secondAttribute="centerX" id="GUe-SH-qKk"/>
+                            <constraint firstItem="9HF-04-XfJ" firstAttribute="centerY" secondItem="Kiv-2a-vTt" secondAttribute="centerY" id="bSn-d5-wJ8"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="4YN-d3-S3E"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="lyK-B1-eML" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="8826" y="4688"/>
+        </scene>
+        <!--Command Pattern View Controller-->
+        <scene sceneID="kxU-vZ-Y97">
+            <objects>
+                <viewController id="Vgf-cO-UB3" customClass="CommandPatternViewController" customModule="DesignPattern" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="dg4-ei-pcE">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Only show in console" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="THU-G7-2Xx">
+                                <rect key="frame" x="126.5" y="433" width="161" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="k7v-4o-6yy"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="THU-G7-2Xx" firstAttribute="centerY" secondItem="k7v-4o-6yy" secondAttribute="centerY" id="DVW-pY-fFT"/>
+                            <constraint firstItem="THU-G7-2Xx" firstAttribute="centerX" secondItem="k7v-4o-6yy" secondAttribute="centerX" id="IzW-ho-8S8"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="l0x-WM-KkP"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="AJ4-Br-9Po" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="8841" y="5543"/>
+        </scene>
         <!--Part2 View Controller-->
         <scene sceneID="gWz-4U-oyK">
             <objects>
@@ -1128,7 +1184,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="24" translatesAutoresizingMaskIntoConstraints="NO" id="sxd-zc-UAf">
-                                <rect key="frame" x="20" y="290" width="374" height="306"/>
+                                <rect key="frame" x="20" y="235" width="374" height="416"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" verticalCompressionResistancePriority="749" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0gd-y1-4HI">
                                         <rect key="frame" x="0.0" y="0.0" width="374" height="31"/>
@@ -1176,6 +1232,22 @@
                                         <buttonConfiguration key="configuration" style="gray" title="Singleton Pattern"/>
                                         <connections>
                                             <segue destination="fyZ-Bn-Fmp" kind="show" id="ist-Ss-tW7"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uee-gC-nBa">
+                                        <rect key="frame" x="0.0" y="330" width="374" height="31"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="gray" title="BridgePattern"/>
+                                        <connections>
+                                            <segue destination="hTy-nc-3Nq" kind="show" id="doR-AD-8PP"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cbM-eb-Wub">
+                                        <rect key="frame" x="0.0" y="385" width="374" height="31"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="gray" title="CommandPattern"/>
+                                        <connections>
+                                            <segue destination="Vgf-cO-UB3" kind="show" id="8sd-MU-LAo"/>
                                         </connections>
                                     </button>
                                 </subviews>

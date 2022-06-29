@@ -92,6 +92,8 @@
 		F4CDC910286A0B9200BC0D04 /* Singleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4CDC90F286A0B9200BC0D04 /* Singleton.swift */; };
 		F4CDC912286B5BBC00BC0D04 /* StoreManagerTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4CDC911286B5BBC00BC0D04 /* StoreManagerTwo.swift */; };
 		F4CDC914286B632C00BC0D04 /* StoreManagerOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4CDC913286B632C00BC0D04 /* StoreManagerOne.swift */; };
+		F4CDC916286BE7D100BC0D04 /* HandsetSoft.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4CDC915286BE7D100BC0D04 /* HandsetSoft.swift */; };
+		F4CDC918286BE93E00BC0D04 /* HandSetBrand.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4CDC917286BE93E00BC0D04 /* HandSetBrand.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -182,6 +184,8 @@
 		F4CDC90F286A0B9200BC0D04 /* Singleton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Singleton.swift; sourceTree = "<group>"; };
 		F4CDC911286B5BBC00BC0D04 /* StoreManagerTwo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreManagerTwo.swift; sourceTree = "<group>"; };
 		F4CDC913286B632C00BC0D04 /* StoreManagerOne.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreManagerOne.swift; sourceTree = "<group>"; };
+		F4CDC915286BE7D100BC0D04 /* HandsetSoft.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HandsetSoft.swift; sourceTree = "<group>"; };
+		F4CDC917286BE93E00BC0D04 /* HandSetBrand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HandSetBrand.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -532,6 +536,8 @@
 			isa = PBXGroup;
 			children = (
 				F4CDC90B286A04BC00BC0D04 /* BridgePatternViewController.swift */,
+				F4CDC915286BE7D100BC0D04 /* HandsetSoft.swift */,
+				F4CDC917286BE93E00BC0D04 /* HandSetBrand.swift */,
 			);
 			path = BridgePattern;
 			sourceTree = "<group>";
@@ -670,6 +676,7 @@
 				F4CDC8D228615B6200BC0D04 /* Part1ViewController.swift in Sources */,
 				F4CDC8A6285F0A4600BC0D04 /* CarDirector.swift in Sources */,
 				F4CDC850285505E300BC0D04 /* DecoratorViewController.swift in Sources */,
+				F4CDC918286BE93E00BC0D04 /* HandSetBrand.swift in Sources */,
 				F4CDC90E286A04C900BC0D04 /* CommandPatternViewController.swift in Sources */,
 				F4CDC8F22867184700BC0D04 /* RoleStateCaretaker.swift in Sources */,
 				F4CDC8E82862260100BC0D04 /* MementoPatternViewController.swift in Sources */,
@@ -688,6 +695,7 @@
 				F4CDC85C285597F700BC0D04 /* FactoryViewController.swift in Sources */,
 				F4CDC8EC2862273700BC0D04 /* CompositePatternViewController.swift in Sources */,
 				F43D9B42284CCAAD002708CC /* StrategyPatternPlusSimpleFactoryViewController.swift in Sources */,
+				F4CDC916286BE7D100BC0D04 /* HandsetSoft.swift in Sources */,
 				F43D9B3A284C9C43002708CC /* CashSuperFactory.swift in Sources */,
 				F4CDC8612855BE5800BC0D04 /* Factory2ViewController.swift in Sources */,
 				F4CDC891285778B900BC0D04 /* TeacherPaper.swift in Sources */,
