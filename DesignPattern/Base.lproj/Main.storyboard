@@ -1184,7 +1184,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="24" translatesAutoresizingMaskIntoConstraints="NO" id="sxd-zc-UAf">
-                                <rect key="frame" x="20" y="235" width="374" height="416"/>
+                                <rect key="frame" x="20" y="180" width="374" height="526"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" verticalCompressionResistancePriority="749" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0gd-y1-4HI">
                                         <rect key="frame" x="0.0" y="0.0" width="374" height="31"/>
@@ -1250,6 +1250,22 @@
                                             <segue destination="Vgf-cO-UB3" kind="show" id="8sd-MU-LAo"/>
                                         </connections>
                                     </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ow8-L2-zBR">
+                                        <rect key="frame" x="0.0" y="440" width="374" height="31"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="gray" title="ChainResponsibilityPattern"/>
+                                        <connections>
+                                            <segue destination="wpa-wF-Aem" kind="show" id="OgE-jY-ECI"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="epm-AE-do8">
+                                        <rect key="frame" x="0.0" y="495" width="374" height="31"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="gray" title="MediatorPattern"/>
+                                        <connections>
+                                            <segue destination="aqP-Pb-xFY" kind="show" id="f8H-QF-LHT"/>
+                                        </connections>
+                                    </button>
                                 </subviews>
                             </stackView>
                         </subviews>
@@ -1267,6 +1283,62 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3tg-E2-GJp" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="12028" y="2438"/>
+        </scene>
+        <!--Mediator Pattern View Controller-->
+        <scene sceneID="Xp5-wn-XBb">
+            <objects>
+                <viewController id="aqP-Pb-xFY" customClass="MediatorPatternViewController" customModule="DesignPattern" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="q3F-JT-aqt">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Only show in console" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6zb-82-dsp">
+                                <rect key="frame" x="145" y="119" width="161" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="buP-jK-1Io"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="6zb-82-dsp" firstAttribute="centerX" secondItem="buP-jK-1Io" secondAttribute="centerX" constant="18.5" id="QaH-3y-lhZ"/>
+                            <constraint firstItem="6zb-82-dsp" firstAttribute="centerY" secondItem="buP-jK-1Io" secondAttribute="centerY" constant="-313.75" id="yxT-yf-HEr"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="Xz1-NB-30h"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Owf-yS-3RQ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="14348" y="244"/>
+        </scene>
+        <!--Chain Responsibility Pattern View Controller-->
+        <scene sceneID="rRY-sO-XcU">
+            <objects>
+                <viewController id="wpa-wF-Aem" customClass="ChainResponsibilityPatternViewController" customModule="DesignPattern" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="JnS-iC-JWQ">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Only show in console" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1ch-JW-ryD">
+                                <rect key="frame" x="126.5" y="433" width="161" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="b26-3h-OUt"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="1ch-JW-ryD" firstAttribute="centerY" secondItem="b26-3h-OUt" secondAttribute="centerY" id="cRG-Jb-wPK"/>
+                            <constraint firstItem="1ch-JW-ryD" firstAttribute="centerX" secondItem="b26-3h-OUt" secondAttribute="centerX" id="mi9-nu-rlz"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="bn0-sI-juP"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="y7R-e4-f7f" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="14349" y="-573"/>
         </scene>
     </scenes>
     <resources>

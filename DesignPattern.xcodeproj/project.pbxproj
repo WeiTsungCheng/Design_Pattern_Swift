@@ -94,6 +94,15 @@
 		F4CDC914286B632C00BC0D04 /* StoreManagerOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4CDC913286B632C00BC0D04 /* StoreManagerOne.swift */; };
 		F4CDC916286BE7D100BC0D04 /* HandsetSoft.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4CDC915286BE7D100BC0D04 /* HandsetSoft.swift */; };
 		F4CDC918286BE93E00BC0D04 /* HandSetBrand.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4CDC917286BE93E00BC0D04 /* HandSetBrand.swift */; };
+		F4CDC91A286BF0CA00BC0D04 /* Command.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4CDC919286BF0CA00BC0D04 /* Command.swift */; };
+		F4CDC91C286BF0EF00BC0D04 /* Babecuer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4CDC91B286BF0EF00BC0D04 /* Babecuer.swift */; };
+		F4CDC91E286BF10500BC0D04 /* Waiter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4CDC91D286BF10500BC0D04 /* Waiter.swift */; };
+		F4CDC922286BF24900BC0D04 /* ChainResponsibilityPatternViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4CDC921286BF24900BC0D04 /* ChainResponsibilityPatternViewController.swift */; };
+		F4CDC925286BF26500BC0D04 /* MediatorPatternViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4CDC924286BF26500BC0D04 /* MediatorPatternViewController.swift */; };
+		F4CDC929286E014C00BC0D04 /* Manager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4CDC928286E014C00BC0D04 /* Manager.swift */; };
+		F4CDC92B286E02CE00BC0D04 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4CDC92A286E02CE00BC0D04 /* Request.swift */; };
+		F4CDC92D286E1EDF00BC0D04 /* UnitedNations.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4CDC92C286E1EDF00BC0D04 /* UnitedNations.swift */; };
+		F4CDC92F286E1F6900BC0D04 /* Country.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4CDC92E286E1F6900BC0D04 /* Country.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -186,6 +195,15 @@
 		F4CDC913286B632C00BC0D04 /* StoreManagerOne.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreManagerOne.swift; sourceTree = "<group>"; };
 		F4CDC915286BE7D100BC0D04 /* HandsetSoft.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HandsetSoft.swift; sourceTree = "<group>"; };
 		F4CDC917286BE93E00BC0D04 /* HandSetBrand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HandSetBrand.swift; sourceTree = "<group>"; };
+		F4CDC919286BF0CA00BC0D04 /* Command.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Command.swift; sourceTree = "<group>"; };
+		F4CDC91B286BF0EF00BC0D04 /* Babecuer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Babecuer.swift; sourceTree = "<group>"; };
+		F4CDC91D286BF10500BC0D04 /* Waiter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Waiter.swift; sourceTree = "<group>"; };
+		F4CDC921286BF24900BC0D04 /* ChainResponsibilityPatternViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChainResponsibilityPatternViewController.swift; sourceTree = "<group>"; };
+		F4CDC924286BF26500BC0D04 /* MediatorPatternViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediatorPatternViewController.swift; sourceTree = "<group>"; };
+		F4CDC928286E014C00BC0D04 /* Manager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Manager.swift; sourceTree = "<group>"; };
+		F4CDC92A286E02CE00BC0D04 /* Request.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Request.swift; sourceTree = "<group>"; };
+		F4CDC92C286E1EDF00BC0D04 /* UnitedNations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitedNations.swift; sourceTree = "<group>"; };
+		F4CDC92E286E1F6900BC0D04 /* Country.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Country.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -463,6 +481,11 @@
 				F4CDC8FB28673F0600BC0D04 /* SingletonPattern */,
 				F4CDC908286A03A100BC0D04 /* BridgePattern */,
 				F4CDC90A286A03DC00BC0D04 /* CommandPattern */,
+				F4CDC91F286BF1C200BC0D04 /* ChainResponsibilityPattern */,
+				F4CDC920286BF1DB00BC0D04 /* MediatorPattern */,
+				F4CDC932286E250900BC0D04 /* FlyweightPattern */,
+				F4CDC931286E250700BC0D04 /* InterpreterPattern */,
+				F4CDC930286E250300BC0D04 /* VisitorPattern */,
 			);
 			path = Part2;
 			sourceTree = "<group>";
@@ -546,8 +569,53 @@
 			isa = PBXGroup;
 			children = (
 				F4CDC90D286A04C900BC0D04 /* CommandPatternViewController.swift */,
+				F4CDC919286BF0CA00BC0D04 /* Command.swift */,
+				F4CDC91B286BF0EF00BC0D04 /* Babecuer.swift */,
+				F4CDC91D286BF10500BC0D04 /* Waiter.swift */,
 			);
 			path = CommandPattern;
+			sourceTree = "<group>";
+		};
+		F4CDC91F286BF1C200BC0D04 /* ChainResponsibilityPattern */ = {
+			isa = PBXGroup;
+			children = (
+				F4CDC921286BF24900BC0D04 /* ChainResponsibilityPatternViewController.swift */,
+				F4CDC92A286E02CE00BC0D04 /* Request.swift */,
+				F4CDC928286E014C00BC0D04 /* Manager.swift */,
+			);
+			path = ChainResponsibilityPattern;
+			sourceTree = "<group>";
+		};
+		F4CDC920286BF1DB00BC0D04 /* MediatorPattern */ = {
+			isa = PBXGroup;
+			children = (
+				F4CDC924286BF26500BC0D04 /* MediatorPatternViewController.swift */,
+				F4CDC92C286E1EDF00BC0D04 /* UnitedNations.swift */,
+				F4CDC92E286E1F6900BC0D04 /* Country.swift */,
+			);
+			path = MediatorPattern;
+			sourceTree = "<group>";
+		};
+		F4CDC930286E250300BC0D04 /* VisitorPattern */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = VisitorPattern;
+			sourceTree = "<group>";
+		};
+		F4CDC931286E250700BC0D04 /* InterpreterPattern */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = InterpreterPattern;
+			sourceTree = "<group>";
+		};
+		F4CDC932286E250900BC0D04 /* FlyweightPattern */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = FlyweightPattern;
+			path = "New Group1/FlyweightPattern";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -622,6 +690,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F4CDC8A2285F042700BC0D04 /* BuilderPattern2ViewController.swift in Sources */,
+				F4CDC922286BF24900BC0D04 /* ChainResponsibilityPatternViewController.swift in Sources */,
 				F4CDC8CA2860DC5400BC0D04 /* AbstractFactory_plus_SimpleFactoryViewController.swift in Sources */,
 				F4CDC8BF28609B5300BC0D04 /* AbstractFactoryViewController.swift in Sources */,
 				F4CDC9032869F34E00BC0D04 /* ConcreteIterator.swift in Sources */,
@@ -643,6 +712,7 @@
 				F43D9B1E284C80D5002708CC /* ViewController.swift in Sources */,
 				F4CDC8652855C03200BC0D04 /* NightingaleFactoryProtocol.swift in Sources */,
 				F4CDC8F62867309500BC0D04 /* ConcreteCompany.swift in Sources */,
+				F4CDC91C286BF0EF00BC0D04 /* Babecuer.swift in Sources */,
 				F4CDC8B6285F48AC00BC0D04 /* Event.swift in Sources */,
 				F4CDC8AB285F18AA00BC0D04 /* ObserverPatternViewController.swift in Sources */,
 				F4CDC912286B5BBC00BC0D04 /* StoreManagerTwo.swift in Sources */,
@@ -665,12 +735,14 @@
 				F4CDC8532855096700BC0D04 /* ProxyViewController.swift in Sources */,
 				F4CDC914286B632C00BC0D04 /* StoreManagerOne.swift in Sources */,
 				F4CDC894285DE28000BC0D04 /* FacadeViewController.swift in Sources */,
+				F4CDC929286E014C00BC0D04 /* Manager.swift in Sources */,
 				F43D9B44284CCC76002708CC /* CashContextNew.swift in Sources */,
 				F43D9B3F284CAA2E002708CC /* CashContext.swift in Sources */,
 				F4CDC9012869F24000BC0D04 /* Aggregate.swift in Sources */,
 				F4CDC8EE2867106500BC0D04 /* GameRole.swift in Sources */,
 				F4CDC8A4285F0A1900BC0D04 /* CarBuilder.swift in Sources */,
 				F4CDC8B3285F469D00BC0D04 /* ObserverPattern_plus_EventHandlerViewController.swift in Sources */,
+				F4CDC92B286E02CE00BC0D04 /* Request.swift in Sources */,
 				F4CDC896285DE4C600BC0D04 /* FundInc.swift in Sources */,
 				F4CDC8F428672E4400BC0D04 /* Company.swift in Sources */,
 				F4CDC8D228615B6200BC0D04 /* Part1ViewController.swift in Sources */,
@@ -681,6 +753,7 @@
 				F4CDC8F22867184700BC0D04 /* RoleStateCaretaker.swift in Sources */,
 				F4CDC8E82862260100BC0D04 /* MementoPatternViewController.swift in Sources */,
 				F4CDC8DB2861EEB900BC0D04 /* Work.swift in Sources */,
+				F4CDC91E286BF10500BC0D04 /* Waiter.swift in Sources */,
 				F43D9B31284C8909002708CC /* Operation.swift in Sources */,
 				F4CDC8E228621C7700BC0D04 /* Player.swift in Sources */,
 				F4CDC8AF285F1CB800BC0D04 /* Observer.swift in Sources */,
@@ -689,21 +762,25 @@
 				F4CDC8BA285F492000BC0D04 /* InformerTwo.swift in Sources */,
 				F4CDC8D028615A0700BC0D04 /* StringExtension.swift in Sources */,
 				F43D9B33284C8C68002708CC /* OperationFactory.swift in Sources */,
+				F4CDC91A286BF0CA00BC0D04 /* Command.swift in Sources */,
 				F4CDC8F9286730DD00BC0D04 /* CompanyDepartment.swift in Sources */,
 				F4CDC8CC2860DC8300BC0D04 /* DataAccess.swift in Sources */,
 				F4CDC8C128609CCF00BC0D04 /* User.swift in Sources */,
 				F4CDC85C285597F700BC0D04 /* FactoryViewController.swift in Sources */,
 				F4CDC8EC2862273700BC0D04 /* CompositePatternViewController.swift in Sources */,
+				F4CDC92D286E1EDF00BC0D04 /* UnitedNations.swift in Sources */,
 				F43D9B42284CCAAD002708CC /* StrategyPatternPlusSimpleFactoryViewController.swift in Sources */,
 				F4CDC916286BE7D100BC0D04 /* HandsetSoft.swift in Sources */,
 				F43D9B3A284C9C43002708CC /* CashSuperFactory.swift in Sources */,
 				F4CDC8612855BE5800BC0D04 /* Factory2ViewController.swift in Sources */,
+				F4CDC925286BF26500BC0D04 /* MediatorPatternViewController.swift in Sources */,
 				F4CDC891285778B900BC0D04 /* TeacherPaper.swift in Sources */,
 				F4CDC8C52860A77F00BC0D04 /* Department.swift in Sources */,
 				F4CDC8F02867113300BC0D04 /* RoleStateMemento.swift in Sources */,
 				F43D9B2E284C851C002708CC /* SimpleFactory1ViewController.swift in Sources */,
 				F4CDC8BC285F493100BC0D04 /* ObserverTwo.swift in Sources */,
 				F4CDC8FF28673F6E00BC0D04 /* SingletonPatternViewController.swift in Sources */,
+				F4CDC92F286E1F6900BC0D04 /* Country.swift in Sources */,
 				F4CDC8C32860A25A00BC0D04 /* AbstractFactoryProtocol.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
