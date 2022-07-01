@@ -483,9 +483,9 @@
 				F4CDC90A286A03DC00BC0D04 /* CommandPattern */,
 				F4CDC91F286BF1C200BC0D04 /* ChainResponsibilityPattern */,
 				F4CDC920286BF1DB00BC0D04 /* MediatorPattern */,
-				F4CDC932286E250900BC0D04 /* FlyweightPattern */,
+				F4CDC93C286E885900BC0D04 /* FlyweightPattern */,
 				F4CDC931286E250700BC0D04 /* InterpreterPattern */,
-				F4CDC930286E250300BC0D04 /* VisitorPattern */,
+				F4CDC93D286E887C00BC0D04 /* VisitorPattern */,
 			);
 			path = Part2;
 			sourceTree = "<group>";
@@ -596,13 +596,6 @@
 			path = MediatorPattern;
 			sourceTree = "<group>";
 		};
-		F4CDC930286E250300BC0D04 /* VisitorPattern */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = VisitorPattern;
-			sourceTree = "<group>";
-		};
 		F4CDC931286E250700BC0D04 /* InterpreterPattern */ = {
 			isa = PBXGroup;
 			children = (
@@ -610,12 +603,18 @@
 			path = InterpreterPattern;
 			sourceTree = "<group>";
 		};
-		F4CDC932286E250900BC0D04 /* FlyweightPattern */ = {
+		F4CDC93C286E885900BC0D04 /* FlyweightPattern */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			name = FlyweightPattern;
-			path = "New Group1/FlyweightPattern";
+			path = FlyweightPattern;
+			sourceTree = "<group>";
+		};
+		F4CDC93D286E887C00BC0D04 /* VisitorPattern */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = VisitorPattern;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
