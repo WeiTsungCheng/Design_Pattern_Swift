@@ -103,6 +103,17 @@
 		F4CDC92B286E02CE00BC0D04 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4CDC92A286E02CE00BC0D04 /* Request.swift */; };
 		F4CDC92D286E1EDF00BC0D04 /* UnitedNations.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4CDC92C286E1EDF00BC0D04 /* UnitedNations.swift */; };
 		F4CDC92F286E1F6900BC0D04 /* Country.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4CDC92E286E1F6900BC0D04 /* Country.swift */; };
+		F4CDC93F286F5E6400BC0D04 /* FlyweightPatternViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4CDC93E286F5E6400BC0D04 /* FlyweightPatternViewController.swift */; };
+		F4CDC941286F5E7900BC0D04 /* InterpreterPatternViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4CDC940286F5E7900BC0D04 /* InterpreterPatternViewController.swift */; };
+		F4CDC943286F5E8500BC0D04 /* VisitorPatternViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4CDC942286F5E8500BC0D04 /* VisitorPatternViewController.swift */; };
+		F4CDC945286F61A800BC0D04 /* Website.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4CDC944286F61A800BC0D04 /* Website.swift */; };
+		F4CDC947286F624C00BC0D04 /* WebsiteFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4CDC946286F624C00BC0D04 /* WebsiteFactory.swift */; };
+		F4CDC949286FEF7B00BC0D04 /* WebUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4CDC948286FEF7B00BC0D04 /* WebUser.swift */; };
+		F4CDC94B286FF4C700BC0D04 /* PlayContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4CDC94A286FF4C700BC0D04 /* PlayContext.swift */; };
+		F4CDC94D287022A900BC0D04 /* Expression.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4CDC94C287022A900BC0D04 /* Expression.swift */; };
+		F4CDC9512870533800BC0D04 /* ActionProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4CDC9502870533800BC0D04 /* ActionProtocol.swift */; };
+		F4CDC953287053BA00BC0D04 /* PersonProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4CDC952287053BA00BC0D04 /* PersonProtocol.swift */; };
+		F4CDC9552870583800BC0D04 /* ObjectStructure.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4CDC9542870583800BC0D04 /* ObjectStructure.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -204,6 +215,17 @@
 		F4CDC92A286E02CE00BC0D04 /* Request.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Request.swift; sourceTree = "<group>"; };
 		F4CDC92C286E1EDF00BC0D04 /* UnitedNations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitedNations.swift; sourceTree = "<group>"; };
 		F4CDC92E286E1F6900BC0D04 /* Country.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Country.swift; sourceTree = "<group>"; };
+		F4CDC93E286F5E6400BC0D04 /* FlyweightPatternViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlyweightPatternViewController.swift; sourceTree = "<group>"; };
+		F4CDC940286F5E7900BC0D04 /* InterpreterPatternViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterpreterPatternViewController.swift; sourceTree = "<group>"; };
+		F4CDC942286F5E8500BC0D04 /* VisitorPatternViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisitorPatternViewController.swift; sourceTree = "<group>"; };
+		F4CDC944286F61A800BC0D04 /* Website.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Website.swift; sourceTree = "<group>"; };
+		F4CDC946286F624C00BC0D04 /* WebsiteFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebsiteFactory.swift; sourceTree = "<group>"; };
+		F4CDC948286FEF7B00BC0D04 /* WebUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebUser.swift; sourceTree = "<group>"; };
+		F4CDC94A286FF4C700BC0D04 /* PlayContext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayContext.swift; sourceTree = "<group>"; };
+		F4CDC94C287022A900BC0D04 /* Expression.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Expression.swift; sourceTree = "<group>"; };
+		F4CDC9502870533800BC0D04 /* ActionProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionProtocol.swift; sourceTree = "<group>"; };
+		F4CDC952287053BA00BC0D04 /* PersonProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonProtocol.swift; sourceTree = "<group>"; };
+		F4CDC9542870583800BC0D04 /* ObjectStructure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObjectStructure.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -599,6 +621,9 @@
 		F4CDC931286E250700BC0D04 /* InterpreterPattern */ = {
 			isa = PBXGroup;
 			children = (
+				F4CDC940286F5E7900BC0D04 /* InterpreterPatternViewController.swift */,
+				F4CDC94A286FF4C700BC0D04 /* PlayContext.swift */,
+				F4CDC94C287022A900BC0D04 /* Expression.swift */,
 			);
 			path = InterpreterPattern;
 			sourceTree = "<group>";
@@ -606,6 +631,10 @@
 		F4CDC93C286E885900BC0D04 /* FlyweightPattern */ = {
 			isa = PBXGroup;
 			children = (
+				F4CDC93E286F5E6400BC0D04 /* FlyweightPatternViewController.swift */,
+				F4CDC944286F61A800BC0D04 /* Website.swift */,
+				F4CDC946286F624C00BC0D04 /* WebsiteFactory.swift */,
+				F4CDC948286FEF7B00BC0D04 /* WebUser.swift */,
 			);
 			path = FlyweightPattern;
 			sourceTree = "<group>";
@@ -613,6 +642,10 @@
 		F4CDC93D286E887C00BC0D04 /* VisitorPattern */ = {
 			isa = PBXGroup;
 			children = (
+				F4CDC942286F5E8500BC0D04 /* VisitorPatternViewController.swift */,
+				F4CDC9542870583800BC0D04 /* ObjectStructure.swift */,
+				F4CDC9502870533800BC0D04 /* ActionProtocol.swift */,
+				F4CDC952287053BA00BC0D04 /* PersonProtocol.swift */,
 			);
 			path = VisitorPattern;
 			sourceTree = "<group>";
@@ -693,7 +726,9 @@
 				F4CDC8CA2860DC5400BC0D04 /* AbstractFactory_plus_SimpleFactoryViewController.swift in Sources */,
 				F4CDC8BF28609B5300BC0D04 /* AbstractFactoryViewController.swift in Sources */,
 				F4CDC9032869F34E00BC0D04 /* ConcreteIterator.swift in Sources */,
+				F4CDC953287053BA00BC0D04 /* PersonProtocol.swift in Sources */,
 				F4CDC89F285EFC6D00BC0D04 /* PersonDirector.swift in Sources */,
+				F4CDC941286F5E7900BC0D04 /* InterpreterPatternViewController.swift in Sources */,
 				F4CDC8D928615EEC00BC0D04 /* Part2ViewController.swift in Sources */,
 				F4CDC90C286A04BC00BC0D04 /* BridgePatternViewController.swift in Sources */,
 				F4CDC88C2855EA1E00BC0D04 /* Resume.swift in Sources */,
@@ -718,21 +753,27 @@
 				F4CDC8FD28673F6200BC0D04 /* IteratorPatternViewController.swift in Sources */,
 				F4CDC8C72860A82E00BC0D04 /* DepartmentFactoryProtocol.swift in Sources */,
 				F4CDC84C2854E47B00BC0D04 /* Person.swift in Sources */,
+				F4CDC9552870583800BC0D04 /* ObjectStructure.swift in Sources */,
 				F4CDC88F2855F01000BC0D04 /* TemplateMethodViewController.swift in Sources */,
+				F4CDC949286FEF7B00BC0D04 /* WebUser.swift in Sources */,
 				F4CDC898285DE66D00BC0D04 /* Stock.swift in Sources */,
 				F4CDC8D628615ECE00BC0D04 /* StatePatternViewController.swift in Sources */,
 				F4CDC9072869FFE600BC0D04 /* Iterator.swift in Sources */,
 				F4CDC8DD2861EEFB00BC0D04 /* State.swift in Sources */,
+				F4CDC93F286F5E6400BC0D04 /* FlyweightPatternViewController.swift in Sources */,
 				F4CDC89D285EFC2700BC0D04 /* PersonBuilder.swift in Sources */,
 				F4CDC8632855BE8500BC0D04 /* Nightingale.swift in Sources */,
 				F4CDC85728558E1300BC0D04 /* PersuitProxy.swift in Sources */,
 				F4CDC8A8285F0A5C00BC0D04 /* Car.swift in Sources */,
 				F43D9B1A284C80D5002708CC /* AppDelegate.swift in Sources */,
+				F4CDC9512870533800BC0D04 /* ActionProtocol.swift in Sources */,
+				F4CDC947286F624C00BC0D04 /* WebsiteFactory.swift in Sources */,
 				F4CDC9052869FFB300BC0D04 /* ConcreteIterator2.swift in Sources */,
 				F43D9B1C284C80D5002708CC /* SceneDelegate.swift in Sources */,
 				F4CDC8552855898100BC0D04 /* Persuit.swift in Sources */,
 				F4CDC8532855096700BC0D04 /* ProxyViewController.swift in Sources */,
 				F4CDC914286B632C00BC0D04 /* StoreManagerOne.swift in Sources */,
+				F4CDC94D287022A900BC0D04 /* Expression.swift in Sources */,
 				F4CDC894285DE28000BC0D04 /* FacadeViewController.swift in Sources */,
 				F4CDC929286E014C00BC0D04 /* Manager.swift in Sources */,
 				F43D9B44284CCC76002708CC /* CashContextNew.swift in Sources */,
@@ -761,13 +802,16 @@
 				F4CDC8BA285F492000BC0D04 /* InformerTwo.swift in Sources */,
 				F4CDC8D028615A0700BC0D04 /* StringExtension.swift in Sources */,
 				F43D9B33284C8C68002708CC /* OperationFactory.swift in Sources */,
+				F4CDC945286F61A800BC0D04 /* Website.swift in Sources */,
 				F4CDC91A286BF0CA00BC0D04 /* Command.swift in Sources */,
 				F4CDC8F9286730DD00BC0D04 /* CompanyDepartment.swift in Sources */,
 				F4CDC8CC2860DC8300BC0D04 /* DataAccess.swift in Sources */,
 				F4CDC8C128609CCF00BC0D04 /* User.swift in Sources */,
 				F4CDC85C285597F700BC0D04 /* FactoryViewController.swift in Sources */,
+				F4CDC94B286FF4C700BC0D04 /* PlayContext.swift in Sources */,
 				F4CDC8EC2862273700BC0D04 /* CompositePatternViewController.swift in Sources */,
 				F4CDC92D286E1EDF00BC0D04 /* UnitedNations.swift in Sources */,
+				F4CDC943286F5E8500BC0D04 /* VisitorPatternViewController.swift in Sources */,
 				F43D9B42284CCAAD002708CC /* StrategyPatternPlusSimpleFactoryViewController.swift in Sources */,
 				F4CDC916286BE7D100BC0D04 /* HandsetSoft.swift in Sources */,
 				F43D9B3A284C9C43002708CC /* CashSuperFactory.swift in Sources */,
