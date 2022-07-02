@@ -14,8 +14,8 @@ class VisitorPatternViewController: UIViewController {
 
         
         let os = ObjectStructure()
-        os.attach(element: Man())
-        os.attach(element: Woman())
+        os.attach(element: Man(name: "小禮"))
+        os.attach(element: Woman(name: "愛芬"))
         
         let v1 = Success()
         os.display(action: v1)

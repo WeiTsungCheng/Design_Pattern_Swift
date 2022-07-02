@@ -8,6 +8,7 @@
 import Foundation
 import CoreText
 
+// Visitor 
 protocol ActionProtocol {
     
     func getManClusion(man: Man)
@@ -17,11 +18,11 @@ protocol ActionProtocol {
 class Success: ActionProtocol {
    
     func getManClusion(man: Man) {
-        print("\(man) 成功就是有好老婆")
+        print("\(man.name): 成功就是有好老婆")
     }
     
     func getWomanClusion(woman: Woman) {
-        print("\(woman) 成功就是有好老公")
+        print("\(woman.name): 成功就是有好老公")
     }
     
     
@@ -30,11 +31,11 @@ class Success: ActionProtocol {
 
 class Failure: ActionProtocol {
     func getManClusion(man: Man) {
-        print("\(man) 失敗就是有壞老婆")
+        print("\(man.name): 失敗就是有壞老婆")
     }
     
     func getWomanClusion(woman: Woman) {
-        print("\(woman) 失敗就是有壞老公")
+        print("\(woman.name): 失敗就是有壞老公")
     }
     
 }
@@ -43,11 +44,11 @@ class Failure: ActionProtocol {
 class Marriage: ActionProtocol {
     
     func getManClusion(man: Man) {
-        print("\(man) 結婚是男孩變成男人的過程)")
+        print("\(man.name): 結婚是男孩變成男人的過程")
     }
     
     func getWomanClusion(woman: Woman) {
-        print("\(woman) 結婚是女孩變成女人的過程")
+        print("\(woman.name): 結婚是女孩變成女人的過程")
     }
     
     

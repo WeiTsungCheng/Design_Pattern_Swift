@@ -8,11 +8,16 @@
 import Foundation
 
 protocol PersonProtocol: AnyObject {
-
+    var name: String { get set }
     func accpet(vistor: ActionProtocol)
 }
 
 class Man: PersonProtocol {
+    var name: String
+    
+    init(name: String) {
+        self.name = name
+    }
     
     func accpet(vistor: ActionProtocol) {
         vistor.getManClusion(man: self)
@@ -22,6 +27,11 @@ class Man: PersonProtocol {
 }
 
 class Woman: PersonProtocol {
+    var name: String
+    
+    init(name: String) {
+        self.name = name
+    }
     
     func accpet(vistor: ActionProtocol) {
         vistor.getWomanClusion(woman: self)
